@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 El propósito de la administración, como se ha mencionado entre líneas, consiste en unificar los esfuerzos de diferentes colaboradores en una organización para lograr un objetivo común. En la siguiente figura, se puede apreciar cada una de las temáticas desarrolladas en el componente.
 
     .row.justify-content-center
       .col-lg-10.mb-5
