@@ -1032,21 +1032,22 @@
     p Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
 
     //- .container.container02.px-4.px-md-5
-    .row.justify-content-center.desktop
-      .col-md-10.col-12.mb-5
-        ImagenInfograficaB.imagen04.color-acento-botones.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img88.svg')
-          .tarjeta.BG02.p-3(x="87.6%" y="69%" numero="+")
-            p El recuadro con el enunciado del problema se ubica a la derecha, aprovechando el tiempo de avance para reforzar las causas, que ocurren antes de que suceda el problema.<br><br> Hay que escribir un enunciado claro del problema (título o resumen). Incluya elementos como quién, qué, cuándo, dónde y cuánto. Sea específico y asegúrese de que todos comprendan completamente el enunciado del problema.
-          .tarjeta.BG02.p-3(x="18%" y="17%" numero="+")
-            p Agregue de cuatro a seis ramas primarias que sean apropiadas para el diagrama, y enumere las categorías principales para las posibles causas.
-          .tarjeta.BG02.p-3(x="31.7%" y="38%" numero="+")
-            p.mb-0 Capture notas sobre la información adicional necesaria, experimentos potenciales, etc., para no ralentizar ni distraer el proceso de enumerar las causas. Trabaje para resolver el problema y revise el diagrama a medida que haya nueva información disponible o las causas iniciales investigadas no hayan conducido a una solución para el problema. Las causas inferiores pueden no ser obvias o ser menos probables que otras.
-            p Es una sesión de lluvia de ideas, por lo tanto, abstenerse de criticar o juzgar las causas como se sugieren. Hay tiempo más tarde para filtrar las sugerencias, pero esas sugerencias pueden desencadenar la línea de pensamiento que conduce a una solución.
-          .tarjeta.BG02.p-3(x="79.4%" y="28.5%" numero="+")
-            p El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
+    .col.desktop
+      .row.justify-content-center
+        .col-md-10.col-12.mb-5
+          ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema1/img88.svg')
+            .tarjeta.BG02.p-3(x="87.6%" y="69%" numero="+")
+              p El recuadro con el enunciado del problema se ubica a la derecha, aprovechando el tiempo de avance para reforzar las causas, que ocurren antes de que suceda el problema.<br><br> Hay que escribir un enunciado claro del problema (título o resumen). Incluya elementos como quién, qué, cuándo, dónde y cuánto. Sea específico y asegúrese de que todos comprendan completamente el enunciado del problema.
+            .tarjeta.BG02.p-3(x="18%" y="17%" numero="+")
+              p Agregue de cuatro a seis ramas primarias que sean apropiadas para el diagrama, y enumere las categorías principales para las posibles causas.
+            .tarjeta.BG02.p-3(x="31.7%" y="38%" numero="+")
+              p.mb-0 Capture notas sobre la información adicional necesaria, experimentos potenciales, etc., para no ralentizar ni distraer el proceso de enumerar las causas. Trabaje para resolver el problema y revise el diagrama a medida que haya nueva información disponible o las causas iniciales investigadas no hayan conducido a una solución para el problema. Las causas inferiores pueden no ser obvias o ser menos probables que otras.
+              p Es una sesión de lluvia de ideas, por lo tanto, abstenerse de criticar o juzgar las causas como se sugieren. Hay tiempo más tarde para filtrar las sugerencias, pero esas sugerencias pueden desencadenar la línea de pensamiento que conduce a una solución.
+            .tarjeta.BG02.p-3(x="79.4%" y="28.5%" numero="+")
+              p El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
     .row.justify-content-center 
       .tarjeta.p-3.mb-5.movil
         .row.justify-content-around.align-items-center
