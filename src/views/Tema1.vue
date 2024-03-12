@@ -22,8 +22,11 @@
           h5 Figura 1
           span Conceptos administrativos
 
-        figure(data-aos="zoom-in")
+        figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img02.svg')
+        
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img02_.svg')
 
     p.mb-5 Lo anterior permite, entonces, crear una organización dinámica, en la que la gerencia ayuda a su personal a adaptarse al cambio para que la organización continúe manteniendo su ventaja competitiva. Este aspecto correspondiente a la importancia de la adaptación puede llegar a significar la diferencia entre su éxito y su fracaso. Por tal motivo, se debe ver la dinámica de la siguiente forma: 
 
@@ -33,8 +36,10 @@
           h5 Figura 2
           span Dinámica organizacional del logro
 
-        figure(data-aos="zoom-in")
+        figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img03.svg')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img03_.svg')
 
     p.mb-5 La administración también posee algunas características fundamentales. 
 
@@ -117,48 +122,53 @@
           h5 Figura 3
           span Niveles administrativos
 
-        ImagenInfograficaB.color-acento-botones
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img12.svg')
-          div(x="11.5%" y="69.9%" tooltip="Alta dirección")
-            p.mb-5 La <b>alta dirección</b>, por lo general, está conformada por los ejecutivos más importantes de la empresa, los cuales son:
-            ul.lista-ul.mb-5
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | El presidente directivo
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | El director ejecutivo
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | El director de operaciones
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | El presidente y el vicepresidente
-            p Su función radica en la integración de diversos componentes de la empresa y la coordinación de las actividades de los diferentes departamentos. También analizan el entorno empresarial y sus implicaciones para formular objetivos con el fin de garantizar la supervivencia de la empresa y el bienestar de sus grupos de interés. 
-          div(x="51.5%" y="87%" tooltip="Mando intermedio")
-            p.mb-5 El <b>mando intermedio</b> vincula la gestión operativa con la alta dirección. Los jefes de división y/o departamento reciben orientación de los gerentes superiores y son líderes para los gerentes operativos. Su trabajo es comprender las políticas enmarcadas por la alta dirección y transmitirlas a sus respectivas divisiones y/o departamentos para garantizar que cumplan con las políticas y decisiones de la empresa.
-            ul.lista-ul.mb-5
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | Jefes de división
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | Jefes de departamento
-          div(x="90%" y="75%" tooltip="Gestión operativa")
-            p.mb-5 La <b>gestión operativa</b> está conformada por:
-            ul.lista-ul.mb-5
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | Los supervisores 
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | Jefes de sección
-              li 
-                <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
-                | Delegados 
-            p Supervisan directamente los esfuerzos de la fuerza laboral. Son responsables del control de calidad y se aseguran de que el trabajo cumpla con los plazos. La alta dirección elabora los planes que definen la autoridad y responsabilidad de los supervisores.
+        figure.desktop(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img12_.svg')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img12_1.svg')
+
+        //- ImagenInfograficaB.color-acento-botones
+        //-   template(v-slot:imagen)
+        //-     figure
+        //-       img(src='@/assets/curso/tema1/img12.svg')
+        //-   div(x="11.5%" y="69.9%" tooltip="Alta dirección")
+        //-     p.mb-5 La <b>alta dirección</b>, por lo general, está conformada por los ejecutivos más importantes de la empresa, los cuales son:
+        //-     ul.lista-ul.mb-5
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | El presidente directivo
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | El director ejecutivo
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | El director de operaciones
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | El presidente y el vicepresidente
+        //-     p Su función radica en la integración de diversos componentes de la empresa y la coordinación de las actividades de los diferentes departamentos. También analizan el entorno empresarial y sus implicaciones para formular objetivos con el fin de garantizar la supervivencia de la empresa y el bienestar de sus grupos de interés. 
+        //-   div(x="51.5%" y="87%" tooltip="Mando intermedio")
+        //-     p.mb-5 El <b>mando intermedio</b> vincula la gestión operativa con la alta dirección. Los jefes de división y/o departamento reciben orientación de los gerentes superiores y son líderes para los gerentes operativos. Su trabajo es comprender las políticas enmarcadas por la alta dirección y transmitirlas a sus respectivas divisiones y/o departamentos para garantizar que cumplan con las políticas y decisiones de la empresa.
+        //-     ul.lista-ul.mb-5
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | Jefes de división
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | Jefes de departamento
+        //-   div(x="90%" y="75%" tooltip="Gestión operativa")
+        //-     p.mb-5 La <b>gestión operativa</b> está conformada por:
+        //-     ul.lista-ul.mb-5
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | Los supervisores 
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | Jefes de sección
+        //-       li 
+        //-         <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+        //-         | Delegados 
+        //-     p Supervisan directamente los esfuerzos de la fuerza laboral. Son responsables del control de calidad y se aseguran de que el trabajo cumpla con los plazos. La alta dirección elabora los planes que definen la autoridad y responsabilidad de los supervisores.
 
     separador
 
@@ -174,8 +184,10 @@
           h5 Figura 4
           span Metas y objetivos
         
-        figure(data-aos="zoom-in")
+        figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img14.svg')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img14_1.svg')
     p La gestión por objetivos está estrechamente relacionada con la evaluación y revisión del desempeño; mide y juzga el desempeño individual con las metas de la organización, para aclarar tanto el trabajo a realizar como las expectativas de logro, y así fomentar la competencia, el crecimiento y motivación del subordinado y la comunicación entre partes. Adicionalmente a ello, busca servir como dispositivo de control e integración organizacional.
 
     .container.container02.p-4.p-md-5
@@ -258,8 +270,10 @@
       h5 Figura 5
       span Ejemplos de objetivos comunes
 
-    figure(data-aos="zoom-in")
+    figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img25.svg')
+    figure.movil(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img25_1.svg')
 
     p Finalmente, los objetivos deben basarse en un cronograma. Es posible que se requiera que el empleado logre los objetivos en tres meses, seis meses o antes de la próxima revisión de desempeño. 
 
@@ -278,86 +292,104 @@
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 6
           span Aspectos del plan estratégico
-        <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4.mb-md-0.mb-4
-            figure(data-aos="zoom-in")
-              img.p-4(src='@/assets/curso/tema1/img27.svg')
-          .col-10
-            h4 Misión
-            p.mb-0 Ofrece a la empresa un sentido de propósito y dirección. La misión de la organización describe quién es, qué hace y hacia dónde quiere ir. Las misiones suelen ser amplias pero procesables.
-    .container.container02.px-4.px-md-5
-    .row.justify-content-center.mb-5
-      .col-lg-10.col-12
-        <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4.mb-md-0.mb-4
-            figure(data-aos="zoom-in")
-              img.p-4(src='@/assets/curso/tema1/img28.svg')
-          .col-10
-            h4 Objetivos
-            p La mayoría de la planeación utiliza objetivos específicos, medibles, alcanzables, realistas y con plazos determinados. 
-            p Los objetivos medibles son importantes porque permiten a los líderes empresariales determinar qué tan bien se está desempeñando el negocio en comparación con los objetivos y la misión general.
-        <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4.mb-md-0.mb-4
-            figure(data-aos="zoom-in")
-              img.p-4(src='@/assets/curso/tema1/img29.svg')
-          .col-10
-            h4 Evaluación y revisión
-            p La planeación estratégica ayuda a los líderes empresariales a evaluar periódicamente el progreso con respecto al plan y realizar cambios o ajustes en respuesta a las condiciones cambiantes.
-        <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
 
-    p.mb-5 Ahora bien, para construir una planeación estratégica, se requiere tener en cuenta ciertos pasos fundamentales. En el interactivo, se puede visualizar y explorar en qué consiste cada uno de ellos.
+        figure.desktop(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img26_1.svg')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img26_2.svg')
+        //- <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
+        //- .row.justify-content-center.align-items-center
+        //-   .col-md-2.col-4.mb-md-0.mb-4
+        //-     figure(data-aos="zoom-in")
+        //-       img.p-4(src='@/assets/curso/tema1/img27.svg')
+        //-   .col-10
+        //-     h4 Misión
+        //-     p.mb-0 Ofrece a la empresa un sentido de propósito y dirección. La misión de la organización describe quién es, qué hace y hacia dónde quiere ir. Las misiones suelen ser amplias pero procesables.
+    //- .container.container02.px-4.px-md-5
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-10.col-12
+    //-     <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
+    //-     .row.justify-content-center.align-items-center
+    //-       .col-md-2.col-4.mb-md-0.mb-4
+    //-         figure(data-aos="zoom-in")
+    //-           img.p-4(src='@/assets/curso/tema1/img28.svg')
+    //-       .col-10
+    //-         h4 Objetivos
+    //-         p La mayoría de la planeación utiliza objetivos específicos, medibles, alcanzables, realistas y con plazos determinados. 
+    //-         p Los objetivos medibles son importantes porque permiten a los líderes empresariales determinar qué tan bien se está desempeñando el negocio en comparación con los objetivos y la misión general.
+    //-     <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
+    //-     .row.justify-content-center.align-items-center
+    //-       .col-md-2.col-4.mb-md-0.mb-4
+    //-         figure(data-aos="zoom-in")
+    //-           img.p-4(src='@/assets/curso/tema1/img29.svg')
+    //-       .col-10
+    //-         h4 Evaluación y revisión
+    //-         p La planeación estratégica ayuda a los líderes empresariales a evaluar periódicamente el progreso con respecto al plan y realizar cambios o ajustes en respuesta a las condiciones cambiantes.
+    //-     <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
 
-    ImagenInfograficaB.imagen04.color-acento-botones.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema1/img30.svg')
-      div(x="8.7%" y="99.9%" )
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4
-            figure
-                img(src='@/assets/curso/tema1/img31.svg')
-          .col-md-9
-            h5 Identificar la situación de la empresa a través de un análisis DOFA.
-            p  Como todo componente que requiere un proceso de establecimiento y desarrollo,  la planeación parte de la situación actual o plan estratégico existente en la empresa; aquí se incluyen la misión y los objetivos estratégicos a largo plazo, para realizar evaluaciones del negocio y su entorno. Estos últimos pueden incluir una evaluación de necesidades o un análisis FODA (fortalezas, debilidades, oportunidades y amenazas) para comprender el estado del negocio y el camino a seguir.
-      div(x="29.7%" y="99.9%" )
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4
-            figure
-                img(src='@/assets/curso/tema1/img32.svg')
-          .col-md-9
-            h5 Priorizar objetivos estratégicos alineados con la fundamentación de la misión. 
-            p Luego, los planeadores estratégicos establecen objetivos e iniciativas que se alinean con la misión y las metas de la empresa y harán que el negocio avance hacia el logro de sus metas. Puede haber muchos objetivos potenciales, por lo que la planeación prioriza los más importantes, relevantes y urgentes. 
-            p Los objetivos pueden incluir una consideración de los requisitos de recursos, como presupuestos y equipos; y a menudo implican una línea de tiempo y métricas comerciales para medir el progreso. 
-      div(x="50%" y="99.9%" )
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4
-            figure
-                img(src='@/assets/curso/tema1/img33.svg')
-          .col-md-9
-            h5 Desarrollar estrategias para ayudar a visualizar y modificar el plan.
-            p Seguidamente, se desarrollan estrategias orientadas al objetivo principal de la planeación estratégica en la que las partes interesadas colaboran para formular los pasos o tácticas necesarias para lograr un objetivo estratégico visible. 
-            p Esto puede implicar la creación de numerosos planes comerciales tácticos a corto plazo, que se ajusten a la estrategia general. 
-      div(x="70.5%" y="99.9%" )
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4
-            figure
-                img(src='@/assets/curso/tema1/img34.svg')
-          .col-md-9
-            h5 Implementación mediante la distribución de responsabilidades entre los colaboradores.
-            p Una vez que se desarrolla el plan estratégico, es hora de ponerlo en marcha. Esto requiere una comunicación clara en toda la organización para establecer responsabilidades, realizar inversiones, ajustar políticas y procesos, y establecer mediciones e informes. 
-            p La implementación generalmente incluye la gestión estratégica, con revisiones estratégicas periódicas para garantizar que los planes se mantengan encaminados.
-      div(x="90.8%" y="99.9%" )
-        .row.justify-content-center.align-items-center
-          .col-md-2.col-4
-            figure
-                img(src='@/assets/curso/tema1/img35.svg')
-          .col-md-9
-            h5 Actualizar los planes estratégicos conforme surgen nuevas oportunidades. 
-            p Un plan estratégico se revisa periódicamente para ajustar las prioridades y reevaluar los objetivos a medida que cambian las condiciones comerciales y surgen nuevas oportunidades. Las revisiones rápidas pueden ocurrir trimestralmente y los ajustes al plan estratégico pueden ocurrir anualmente. 
-            p Las partes interesadas pueden utilizar otras herramientas para evaluar el desempeño frente a los objetivos.
+    p.mb-5.mt-5 Ahora bien, para construir una planeación estratégica, se requiere tener en cuenta ciertos pasos fundamentales. En el interactivo, se puede visualizar y explorar en qué consiste cada uno de ellos.
+
+    .col.desktop
+      ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema1/img30.svg')
+        div(x="8.7%" y="99.9%" )
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-4
+              figure
+                  img(src='@/assets/curso/tema1/img31.svg')
+            .col-md-9
+              h5 Identificar la situación de la empresa a través de un análisis DOFA.
+              p  Como todo componente que requiere un proceso de establecimiento y desarrollo,  la planeación parte de la situación actual o plan estratégico existente en la empresa; aquí se incluyen la misión y los objetivos estratégicos a largo plazo, para realizar evaluaciones del negocio y su entorno. Estos últimos pueden incluir una evaluación de necesidades o un análisis FODA (fortalezas, debilidades, oportunidades y amenazas) para comprender el estado del negocio y el camino a seguir.
+        div(x="29.7%" y="99.9%" )
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-4
+              figure
+                  img(src='@/assets/curso/tema1/img32.svg')
+            .col-md-9
+              h5 Priorizar objetivos estratégicos alineados con la fundamentación de la misión. 
+              p Luego, los planeadores estratégicos establecen objetivos e iniciativas que se alinean con la misión y las metas de la empresa y harán que el negocio avance hacia el logro de sus metas. Puede haber muchos objetivos potenciales, por lo que la planeación prioriza los más importantes, relevantes y urgentes. 
+              p Los objetivos pueden incluir una consideración de los requisitos de recursos, como presupuestos y equipos; y a menudo implican una línea de tiempo y métricas comerciales para medir el progreso. 
+        div(x="50%" y="99.9%" )
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-4
+              figure
+                  img(src='@/assets/curso/tema1/img33.svg')
+            .col-md-9
+              h5 Desarrollar estrategias para ayudar a visualizar y modificar el plan.
+              p Seguidamente, se desarrollan estrategias orientadas al objetivo principal de la planeación estratégica en la que las partes interesadas colaboran para formular los pasos o tácticas necesarias para lograr un objetivo estratégico visible. 
+              p Esto puede implicar la creación de numerosos planes comerciales tácticos a corto plazo, que se ajusten a la estrategia general. 
+        div(x="70.5%" y="99.9%" )
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-4
+              figure
+                  img(src='@/assets/curso/tema1/img34.svg')
+            .col-md-9
+              h5 Implementación mediante la distribución de responsabilidades entre los colaboradores.
+              p Una vez que se desarrolla el plan estratégico, es hora de ponerlo en marcha. Esto requiere una comunicación clara en toda la organización para establecer responsabilidades, realizar inversiones, ajustar políticas y procesos, y establecer mediciones e informes. 
+              p La implementación generalmente incluye la gestión estratégica, con revisiones estratégicas periódicas para garantizar que los planes se mantengan encaminados.
+        div(x="90.8%" y="99.9%" )
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-4
+              figure
+                  img(src='@/assets/curso/tema1/img35.svg')
+            .col-md-9
+              h5 Actualizar los planes estratégicos conforme surgen nuevas oportunidades. 
+              p Un plan estratégico se revisa periódicamente para ajustar las prioridades y reevaluar los objetivos a medida que cambian las condiciones comerciales y surgen nuevas oportunidades. Las revisiones rápidas pueden ocurrir trimestralmente y los ajustes al plan estratégico pueden ocurrir anualmente. 
+              p Las partes interesadas pueden utilizar otras herramientas para evaluar el desempeño frente a los objetivos.
+    .tarjeta.p-3.mb-5.movil
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/template/icono-pdf.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small Descargar. La planeación estratégica.
+            .col-sm-auto
+              a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/planeacionestrategica.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
     p.mb-5 Se hace énfasis también sobre la ruta de las estrategias que favorecen el cumplimiento de los objetivos, ya que así, se ayuda a las partes interesadas a visualizarla de forma completa, como un gráfico interrelacionado, revisando las relaciones de causa y efecto entre los elementos de una estrategia empresarial.
     p.mb-5 Las estrategias se centran en cuatro áreas o categorías comerciales principales.
@@ -367,8 +399,10 @@
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 7
           span Áreas comerciales
-        figure(data-aos="zoom-in")
+        figure.desktop(data-aos="zoom-in")
           img.p-4(src='@/assets/curso/tema1/img36.svg')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img36_1.svg')
 
     .BGIMG03.p-4  
       p.mb-5 En otras compañías, se utiliza el término de mapa estratégico, que puede ayudar a traducir los objetivos generales en un plan de acción y objetivos específicos que se pueden alinear e implementar. El mapa de estrategias también puede ayudar a identificar desafíos estratégicos que pueden no ser obvios. 
@@ -428,8 +462,8 @@
 
     .row.justify-content-center.mb-5
       .col-md-10.col-12
-        .BG04.p-2
-          p.mb-0.text-center Estos son algunos de los modelos a seguir: modelos administrativos, modelos de planeación estratégica y modelos gerenciales.
+        .BG04_1.p-2
+          p.mb-0.text-center(style="color: #FFFFFF") Estos son algunos de los modelos a seguir: modelos administrativos, modelos de planeación estratégica y modelos gerenciales.
 
     .row.mb-5
       .col-auto
@@ -442,21 +476,23 @@
       .col-lg-8.col-md-10.col-12
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
-            img.imagen03.ms-md-3.ps-md-4(src='@/assets/curso/tema1/img43.svg' alt='AvatarTop')
+            img.imagen03.ms-md-3.ps-md-4(src='@/assets/curso/tema1/img43_1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanco
             .py-4.pe-4 
-              p.mb-0 En las empresas más pequeñas, por su parte, hay quienes toman las decisiones y quienes las siguen; esta estructura de mando se vuelve más compleja a medida que la empresa crece.
+              p.mb-0(style="color: #FFFFFF") En las empresas más pequeñas, por su parte, hay quienes toman las decisiones y quienes las siguen; esta estructura de mando se vuelve más compleja a medida que la empresa crece.
           
     p Al observar los componentes que conforman la estructura lógica, es fácil ver la necesidad de comprender el modelo administrativo utilizado por una empresa. Al comprender cómo está organizada la empresa, puede aplicar ese conocimiento al diseño.  Hay varias formas en las que puede identificar el modelo actual utilizado por una empresa, estos elementos incluyen:
 
-    .container.BGIMG04.px-4.px-md-5.pt-4  
+    //- .container.BGIMG04.px-4.px-md-5.pt-4  
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 8
       span Elementos para identificar el modelo administrativo
-    figure.mb-5(data-aos="zoom-in")
+    figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img45.svg')
+    figure.movil(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img45_1.svg')
 
-    p.mb-5 Los organigramas sirven como un mapa de la estructura administrativa de la empresa, estos departamentos pueden tener divisiones que están bajo su administración, como en el caso de los departamentos de Nóminas que están bajo el departamento de Finanzas, por ejemplo. Al observar los componentes del diagrama de flujo, se puede ver que cada uno de estos podría convertirse en unidades organizativas individuales. Siguiendo este modelo, se podría crear fácilmente un diseño que funcione con el modelo existente que utiliza la empresa; entre los más conocidos, se encuentran los siguientes.
+    p.mb-5.mt-5 Los organigramas sirven como un mapa de la estructura administrativa de la empresa, estos departamentos pueden tener divisiones que están bajo su administración, como en el caso de los departamentos de Nóminas que están bajo el departamento de Finanzas, por ejemplo. Al observar los componentes del diagrama de flujo, se puede ver que cada uno de estos podría convertirse en unidades organizativas individuales. Siguiendo este modelo, se podría crear fácilmente un diseño que funcione con el modelo existente que utiliza la empresa; entre los más conocidos, se encuentran los siguientes.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
@@ -523,27 +559,39 @@
             p.text-center Ahora, una vez definido qué es realmente un modelo de planeación estratégica, se deben tener en cuenta los elementos que la contienen: estructura y evaluación.  
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img.imagen01(src='@/assets/curso/tema1/img55.svg' alt='AvatarTop')
+                img.imagen01(src='@/assets/curso/tema1/img55_1.svg' alt='AvatarTop')
               .tarjeta.BG06
                 .py-4.pe-4 
-                  p.mb-0 La <b>estructura</b> se refiere a los diferentes componentes del plan estratégico y cómo encajan todos juntos. Por ejemplo, la estructura puede comenzar con la formulación de la visión, luego fluir hacia valores, áreas de enfoque y cualquier número de niveles de objetivos.
+                  p.mb-0(style="color: #FFFFFF") La <b>estructura</b> se refiere a los diferentes componentes del plan estratégico y cómo encajan todos juntos. Por ejemplo, la estructura puede comenzar con la formulación de la visión, luego fluir hacia valores, áreas de enfoque y cualquier número de niveles de objetivos.
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img.imagen01(src='@/assets/curso/tema1/img56.svg' alt='AvatarTop')
+                img.imagen01(src='@/assets/curso/tema1/img56_1.svg' alt='AvatarTop')
               .tarjeta.BG06
                 .py-4.pe-4 
-                  p.mb-0 La <b>evaluación</b> se refiere a cómo hará el seguimiento y la presentación de informes sobre los elementos de la meta de su estrategia.
+                  p.mb-0(style="color: #FFFFFF") La <b>evaluación</b> se refiere a cómo hará el seguimiento y la presentación de informes sobre los elementos de la meta de su estrategia.
             p De igual forma, para su desarrollo, se hace necesario reconocer a fondo los siguientes aspectos de la organización.
       .col-lg-8.col-md-10.col-12.mb-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 9
           span Aspectos organizacionales esenciales
-        figure(data-aos="zoom-in")
+        figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img57.svg')
-      .col-lg-10.col-md-11.col-12.BGIMG06.py-3
-        .row.justify-content-center
-          .col-md-11.col-12.px-4  
-            p Independientemente de cuál modelo de planeación estratégica se elija como el más apropiado para sus necesidades, existen mejores prácticas para asegurarse de que tenga éxito. Por ejemplo, al hacer la investigación, busque reunir un grupo que sea diverso, pero también apropiado para la meta, de tal forma que genere más ideas al equipo de trabajo.
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img57_1.svg')
+      
+      .row.justify-content-center
+        .col-lg-10.col-md-11.col-12
+          .tarjeta-avatar-b.mb-5
+            .row.justify-content-center
+              .tarjeta.BG06
+                .py-4.pe-4 
+                  p.mb-0(style="color: #FFFFFF") Independientemente de cuál modelo de planeación estratégica se elija como el más apropiado para sus necesidades, existen mejores prácticas para asegurarse de que tenga éxito. Por ejemplo, al hacer la investigación, busque reunir un grupo que sea diverso, pero también apropiado para la meta, de tal forma que genere más ideas al equipo de trabajo.
+        
+        //- .row.justify-content-center
+        //-   .tarjeta.BG06
+        //-     .row.justify-content-center
+        //-       .col-md-11.col-12.px-4  
+        //-         p Independientemente de cuál modelo de planeación estratégica se elija como el más apropiado para sus necesidades, existen mejores prácticas para asegurarse de que tenga éxito. Por ejemplo, al hacer la investigación, busque reunir un grupo que sea diverso, pero también apropiado para la meta, de tal forma que genere más ideas al equipo de trabajo.
 
     p.mb-5 Cuando se tiene un plan, se debe ser realista. Si no puede ser ejecutado, entonces no se ha hecho bien el trabajo. Este debe ser accionable, con objetivos, tareas, responsabilidades delineadas, rendición de cuentas y plazos claramente definidos, sin querer decir esto que no pueda ser flexible; los planes cambian, por lo que es mejor no ser rígido al respecto.
 
@@ -567,12 +615,12 @@
               h4.text-center.py-2 Tipos de modelos
         tbody
           tr
-            td(style="background-color: #E1EFE3; color: #000").text-center
-            td(style="background-color: #E1EFE3; color: #000").text-center <b>Modelo lineal</b>
-            td(style="background-color: #E1EFE3; color: #000").text-center <b>Cuadro de mando Integral</b>
-            td(style="background-color: #E1EFE3; color: #000").text-center <b>Modelo cero o básico</b>
-            td(style="background-color: #E1EFE3; color: #000").text-center <b>Modelo desconocido</b>
-            td(style="background-color: #E1EFE3; color: #000").text-center <b>Modelo de objetivos</b>
+            td(style="background-color: #F6F6F6; color: #000").text-center
+            td(style="background-color: #F6F6F6; color: #000").text-center <b>Modelo lineal</b>
+            td(style="background-color: #F6F6F6; color: #000").text-center <b>Cuadro de mando Integral</b>
+            td(style="background-color: #F6F6F6; color: #000").text-center <b>Modelo cero o básico</b>
+            td(style="background-color: #F6F6F6; color: #000").text-center <b>Modelo desconocido</b>
+            td(style="background-color: #F6F6F6; color: #000").text-center <b>Modelo de objetivos</b>
           tr  
             td.text-center <b>Descripción</b>
             td Requiere de la cooperación de varias unidades administrativas para ejecutar dicho modelo, tal es el caso de las áreas comerciales y de los ingenieros de sistemas que tienen como responsabilidad la seguridad de la información que produce la empresa. 
@@ -594,39 +642,42 @@
 
     p.mb-5 Este tipo de modelo, al igual que los anteriores, tiene una clasificación específica, la cual está enfocada, como bien lo indica, en procesos gerenciales de una organización. Dependiendo del logro a alcanzar, se implementa alguno de estos modelos.
 
-    ImagenInfograficaB.imagen04.color-acento-botones.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema1/img60.svg')
-      div(x="16.3%" y="72%" )
-        .row.justify-content-center.align-items-center
-          .col-md-11
-            h5 Calidad total
-            p Los colaboradores de bajo nivel hasta los ejecutivos de más alto rango se concentran en mejorar la calidad y, por lo tanto, brindar servicios al cliente dejando como resultado la satisfacción.
-            p Se centra en las mejoras de procesos a largo plazo, en lugar de simplemente enfatizar las ganancias financieras a corto plazo.
-      div(x="33.4%" y="72%" )
-        .row.justify-content-center.align-items-center
-          .col-md-11
-            h5 Kaizen
-            p Cuando se aplica al lugar de trabajo, significa una mejora continua que involucra a todos, tanto a los gerentes como a los trabajadores, implica hacer que el ambiente de trabajo sea más eficiente y eficaz, creando una atmósfera de equipo, mejorando los procedimientos cotidianos y asegurando el compromiso de los empleados.
-      div(x="50.6%" y="72%" )
-        .row.justify-content-center.align-items-center
-          .col-md-11
-            h5 Justo a tiempo
-            p Las empresas emplean esta estrategia para aumentar la eficiencia y disminuir el desperdicio. Se aplica justo a tiempo a través de un sistema de inventario que alinea los pedidos de materias primas de los proveedores directamente con los programas de producción; también reduce los costos de inventario. 
-            p Este método requiere que los productores pronostiquen la demanda con precisión, solo cuando la necesiten para el proceso de producción, reduciendo los costos de inventario. 
-      div(x="68%" y="72%" )
-        .row.justify-content-center.align-items-center
-          .col-md-11
-            h5 Reingeniería
-            p La ejecución adecuada de la reingeniería puede cambiar las reglas del juego para cualquier negocio. Si se maneja adecuadamente, la reingeniería de procesos de negocios puede hacer milagros en una empresa en quiebra o estancada, aumentando las ganancias e impulsando el crecimiento.
-            p La productividad de los empleados definitivamente se ve afectada durante la reingeniería de procesos; si los procesos se gestionan mejor durante el tiempo de ejecución, la necesidad de reingeniería se reduce considerablemente.
-      div(x="84.7%" y="72%" )
-        .row.justify-content-center.align-items-center
-          .col-md-11
-            h5 #[i Benchmarking]
-            p Tiene como objetivo proponer un modelo de evaluación comparativa, que se puede aplicar para todos los tipos de mediciones. Es necesario evaluar los puntos fuertes y débiles de la operación interna. 
-            p Solo se estará preparado para diferenciar sus posibilidades en el mercado si se conoce la fuerza y debilidad de las competencias.
+    .col.desktop
+      ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema1/img60.svg')
+        div(x="16.3%" y="72%" )
+          .row.justify-content-center.align-items-center
+            .col-md-11
+              h5 Calidad total
+              p Los colaboradores de bajo nivel hasta los ejecutivos de más alto rango se concentran en mejorar la calidad y, por lo tanto, brindar servicios al cliente dejando como resultado la satisfacción.
+              p Se centra en las mejoras de procesos a largo plazo, en lugar de simplemente enfatizar las ganancias financieras a corto plazo.
+        div(x="33.4%" y="72%" )
+          .row.justify-content-center.align-items-center
+            .col-md-11
+              h5 Kaizen
+              p Cuando se aplica al lugar de trabajo, significa una mejora continua que involucra a todos, tanto a los gerentes como a los trabajadores, implica hacer que el ambiente de trabajo sea más eficiente y eficaz, creando una atmósfera de equipo, mejorando los procedimientos cotidianos y asegurando el compromiso de los empleados.
+        div(x="50.6%" y="72%" )
+          .row.justify-content-center.align-items-center
+            .col-md-11
+              h5 Justo a tiempo
+              p Las empresas emplean esta estrategia para aumentar la eficiencia y disminuir el desperdicio. Se aplica justo a tiempo a través de un sistema de inventario que alinea los pedidos de materias primas de los proveedores directamente con los programas de producción; también reduce los costos de inventario. 
+              p Este método requiere que los productores pronostiquen la demanda con precisión, solo cuando la necesiten para el proceso de producción, reduciendo los costos de inventario. 
+        div(x="68%" y="72%" )
+          .row.justify-content-center.align-items-center
+            .col-md-11
+              h5 Reingeniería
+              p La ejecución adecuada de la reingeniería puede cambiar las reglas del juego para cualquier negocio. Si se maneja adecuadamente, la reingeniería de procesos de negocios puede hacer milagros en una empresa en quiebra o estancada, aumentando las ganancias e impulsando el crecimiento.
+              p La productividad de los empleados definitivamente se ve afectada durante la reingeniería de procesos; si los procesos se gestionan mejor durante el tiempo de ejecución, la necesidad de reingeniería se reduce considerablemente.
+        div(x="84.7%" y="72%" )
+          .row.justify-content-center.align-items-center
+            .col-md-11
+              h5 #[i Benchmarking]
+              p Tiene como objetivo proponer un modelo de evaluación comparativa, que se puede aplicar para todos los tipos de mediciones. Es necesario evaluar los puntos fuertes y débiles de la operación interna. 
+              p Solo se estará preparado para diferenciar sus posibilidades en el mercado si se conoce la fuerza y debilidad de las competencias.
+    figure.movil(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img60_1.svg')
 
     separador
 
@@ -684,7 +735,7 @@
 
     separador
 
-    .container.BGIMG07.px-4.px-md-5.pt-4  
+    //- .container.BGIMG07.px-4.px-md-5.pt-4  
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Planeación
 
@@ -693,8 +744,10 @@
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 10
       span Premisas de la planeación
-    figure.mb-5(data-aos="zoom-in")
+    figure.desktop.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img67.svg')
+    figure.movil.mb-5(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img67_1.svg')
 
     .row.justify-content-center.mb-5
       .col-md-10.col-12
@@ -702,40 +755,42 @@
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 11
           span Proceso de planeación
-        figure.mb-5(data-aos="zoom-in")
+        figure.desktop.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img68.svg')
+        figure.movil.mb-5(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img68_1.svg')
       .col-md-6.col-12
         p Los principios de la planeación, por su parte, se pueden describir de esta manera:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img69.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img69_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-5
               p <b>Inherencia:</b> toda organización debe contar con un plan que determine cómo resolver determinados problemas y así alcanzar los objetivos de la forma más eficiente posible.
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img70.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img70_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-4
               p.mb-0 <b>Racionalidad:</b> consiste en comprender un problema para luego determinar los criterios de diseño del plan, el establecimiento de alternativas y su aplicación. 
               p Las decisiones deben tomarse con base en la lógica y la razón, no de acuerdo con las emociones y los valores.
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img71.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img71_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-5
               p.mb-0 <b>Unidad:</b> se asignan objetivos que, a su vez, deberán orientarse hacia una meta común; si bien existe un plan para cada una de las funciones, todas deben unirse en un plan principal.
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img72.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img72_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-5
               p.mb-0 <b>Compromiso:</b> para llegar a la meta, se debe calcular el tiempo que implica el compromiso de cada recurso.
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img73.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img73_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-5
               p.mb-0 <b>Exactitud:</b> el plan debe ser exacto, cualquier error puede afectar el resto de funciones de la organización, cuanto más precisos los planes, mayores serán las posibilidades de lograr los objetivos.
       .tarjeta-avatar
-        img.imagen02(src='@/assets/curso/tema1/img74.svg' alt='AvatarTop')
+        img.imagen02(src='@/assets/curso/tema1/img74_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
             .p-5
               p.mb-0 <b>Factibilidad:</b> todo plan debe ser realista: diseñado con base en la experiencia, hechos concretos y recursos disponibles.            
@@ -746,10 +801,12 @@
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 12
       span Elementos que componen la planeación
-    figure.mb-5(data-aos="zoom-in")
+    figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img75.svg')
+    figure.movil(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img75_1.svg')
 
-    p.mb-5 Existen diferentes tipos de planeación: estratégica, táctica y operacional.
+    p.mb-5.mt-5 Existen diferentes tipos de planeación: estratégica, táctica y operacional.
 
     .row.justify-content-center.mb-5
       .col-md-10.col-12
@@ -829,7 +886,7 @@
     .cajon.color-secundario.p-4.mb-4
       p.mb-0 A modo de resumen, entonces, se pueden sintetizar los tipos de planeación de acuerdo con su periodo y amplitud, tal como se percibe en la siguiente tabla. Esto es interesante en el sentido que permite saber qué tipo de planeación se podría implementar de acuerdo con la necesidad que tenga la empresa en ese momento.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.mt-5
       .col-md-6.col-12.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2
@@ -843,17 +900,17 @@
               th(style="background-color: #3AE3FE; color: #000").text-center.py-2 AMPLITUD
           tbody
             tr
-              td(style="background-color: #E1EFE3; color: #000").text-center Estratégica
-              td(style="background-color: #E1EFE3; color: #000").text-center Largo plazo
-              td(style="background-color: #E1EFE3; color: #000").text-center Empresa
+              td(style="background-color: #F6F6F6; color: #000").text-center Estratégica
+              td(style="background-color: #F6F6F6; color: #000").text-center Largo plazo
+              td(style="background-color: #F6F6F6; color: #000").text-center Empresa
             tr
               td.text-center Táctica
               td.text-center Mediano plazo
               td.text-center Unidad de la empresa
             tr
-              td(style="background-color: #E1EFE3; color: #000").text-center Operacional
-              td(style="background-color: #E1EFE3; color: #000").text-center Corto plazo
-              td(style="background-color: #E1EFE3; color: #000").text-center Tarea, actividad o función
+              td(style="background-color: #F6F6F6; color: #000").text-center Operacional
+              td(style="background-color: #F6F6F6; color: #000").text-center Corto plazo
+              td(style="background-color: #F6F6F6; color: #000").text-center Tarea, actividad o función
       .col-md-6.col-12.mb-3
         p Cada uno de estos planes enunciados anteriormente son puestos en marcha mediante un plan de acción, para contribuir a los diferentes niveles de la planeación que se desarrollan en la organización; para ello, se procede a definir ampliamente los lineamientos de los planes de acción a través del siguiente video.      
         figure
@@ -888,27 +945,32 @@
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 13
       span Características de un cronograma
-    figure.mb-5(data-aos="zoom-in")
+    figure.desktop.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img85.svg')
+    figure.movil.mb-5(data-aos="zoom-in")
+      img(src='@/assets/curso/tema1/img85_1.svg')
 
     .row.justify-content-center
       .col-md-10.col-12.mb-3
         p Al hacer un cronograma de actividades o programa de trabajo, hay tres cosas que se deben considerar: preparar, hacer y concluir. A continuación, se describen los pasos para un programa de trabajo.
 
-    ImagenInfografica.color-acento-botones.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema1/img86.svg')
-      .tarjeta.BG02.p-3(x="16%" y="79%" numero="+")
-        p Para hacer un cronograma de actividades, es importante hacer una lista aproximada de las actividades que se desean desarrollar en un lapso, con una idea clara de las responsabilidades para cada colaborador.
-      .tarjeta.BG02.p-3(x="33.4%" y="79%" numero="+")
-        p La ejecución de las actividades o responsabilidades debe ser planificada. Se necesita establecer distintas formas de completar las diferentes actividades; este proceso le da un detalle minucioso del tiempo que estima para cada actividad y cuánto le queda para el cumplimiento de ella.
-      .tarjeta.BG02.p-3(x="50.6%" y="79%" numero="+")
-        p Sus actividades deben seguir un orden cronológico u orden de procesos; es mejor si fluye según una secuencia, para que pueda establecer una interconexión con las actividades anteriores y posteriores.
-      .tarjeta.BG02.p-3(x="68%" y="79%" numero="+")
-        p Cada actividad debe completarse dentro de un marco de tiempo. Se puede establecer un límite para cada una de las actividades y responsabilidades, para que los involucrados en la ejecución de las actividades las desarrollen en el tiempo estipulado.
-      .tarjeta.BG02.p-3(x="84.6%" y="79%" numero="+")
-        p Una vez que haya diseñado su plan de programación de actividades, se debe mantener su ejecución y finalización dentro del marco de tiempo establecido. Mantener las actividades le ayudará a obtener un resultado efectivo en la planeación.
+    .col.desktop
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema1/img86_1.svg')
+        .tarjeta.BG02.p-3(x="16%" y="79%" numero="+")
+          p Para hacer un cronograma de actividades, es importante hacer una lista aproximada de las actividades que se desean desarrollar en un lapso, con una idea clara de las responsabilidades para cada colaborador.
+        .tarjeta.BG02.p-3(x="33.4%" y="79%" numero="+")
+          p La ejecución de las actividades o responsabilidades debe ser planificada. Se necesita establecer distintas formas de completar las diferentes actividades; este proceso le da un detalle minucioso del tiempo que estima para cada actividad y cuánto le queda para el cumplimiento de ella.
+        .tarjeta.BG02.p-3(x="50.6%" y="79%" numero="+")
+          p Sus actividades deben seguir un orden cronológico u orden de procesos; es mejor si fluye según una secuencia, para que pueda establecer una interconexión con las actividades anteriores y posteriores.
+        .tarjeta.BG02.p-3(x="68%" y="79%" numero="+")
+          p Cada actividad debe completarse dentro de un marco de tiempo. Se puede establecer un límite para cada una de las actividades y responsabilidades, para que los involucrados en la ejecución de las actividades las desarrollen en el tiempo estipulado.
+        .tarjeta.BG02.p-3(x="84.6%" y="79%" numero="+")
+          p Una vez que haya diseñado su plan de programación de actividades, se debe mantener su ejecución y finalización dentro del marco de tiempo establecido. Mantener las actividades le ayudará a obtener un resultado efectivo en la planeación.
+    figure.movil
+      img(src='@/assets/curso/tema1/img86_2.svg')
 
     .row.justify-content-center
       .col-md-10.col-12.mb-3
@@ -925,34 +987,52 @@
             |	El cronograma o la asignación de tiempo para cada actividad debe coordinarse o funcionar con dicha actividad. Si el mensaje o los subtítulos no son suficientes para transmitir una actividad, puede usar imágenes para describirla.
         p Asimismo, tenga en cuenta sus principales elementos:
 
+    //- .row.justify-content-center
+    //-   .col-lg-4.col-8
+    //-     a.anexo.mb-4(:href="obtenerLink('downloads/anexo_cronogramas.pdf')" target="_blank")
+    //-       .anexo__icono
+    //-         img(src="@/assets/template/icono-pdf.svg")
+    //-       .anexo__texto
+    //-         p <b>Anexo</b>. Elementos cronograma de actividades.
+
     .row.justify-content-center
-      .col-lg-4.col-8
-        a.anexo.mb-4(:href="obtenerLink('downloads/anexo_cronogramas.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p <b>Anexo</b>. Elementos cronograma de actividades.
+      .col-lg-10.col-md-8.col-12
+        .tarjeta.color-primario.p-3.mb-5(style="background-color: #03386E")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/img86_3.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Elementos de un cronograma de actividades
+                  p.text-small Conozca en el siguiente enlace los elementos principales que conforman un cronograma de actividades o programa de trabajo.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo_cronogramas.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
     separador
 
     .container.BGIMG01.px-4.px-md-5.pt-4
-    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.7. Diagrama de causa y efecto
+      #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.7. Diagrama de causa y efecto
 
-    p El diagrama de causa y efecto es una herramienta gráfica que permite a un equipo identificar, categorizar y examinar las posibles causas relacionadas con un problema. La intención es exponer las causas raíz más probables para una mayor investigación.
-    p Los diagramas de causa y efecto son una herramienta útil cuando se trabaja para identificar las causas fundamentales de un problema durante una investigación de causas fundamentales con un equipo. El diagrama de causa y efecto examina por qué sucedió o podría suceder algo al organizar las causas potenciales en categorías más pequeñas. También puede ser útil para mostrar las relaciones entre los factores contribuyentes. Se observa gráficamente, ya que ilustra la relación entre un resultado dado y todos los factores que influyen en él.
-    p Hay tres beneficios significativos al usar un diagrama de causa y efecto con un equipo.
+      p El diagrama de causa y efecto es una herramienta gráfica que permite a un equipo identificar, categorizar y examinar las posibles causas relacionadas con un problema. La intención es exponer las causas raíz más probables para una mayor investigación.
+      p Los diagramas de causa y efecto son una herramienta útil cuando se trabaja para identificar las causas fundamentales de un problema durante una investigación de causas fundamentales con un equipo. El diagrama de causa y efecto examina por qué sucedió o podría suceder algo al organizar las causas potenciales en categorías más pequeñas. También puede ser útil para mostrar las relaciones entre los factores contribuyentes. Se observa gráficamente, ya que ilustra la relación entre un resultado dado y todos los factores que influyen en él.
+      p Hay tres beneficios significativos al usar un diagrama de causa y efecto con un equipo.
 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 14
-      span Beneficios del diagrama causa y efecto
-    figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img87.svg')
+      .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+        h5 Figura 14
+        span Beneficios del diagrama causa y efecto
+      figure.desktop.mb-5(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img87.svg')
+      figure.movil.mb-5(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img87_1.svg')
 
     p Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
 
-    .container.container02.px-4.px-md-5
-    .row.justify-content-center
+    //- .container.container02.px-4.px-md-5
+    .row.justify-content-center.desktop
       .col-md-10.col-12.mb-5
         ImagenInfograficaB.imagen04.color-acento-botones.mb-5
           template(v-slot:imagen)
@@ -967,6 +1047,19 @@
             p Es una sesión de lluvia de ideas, por lo tanto, abstenerse de criticar o juzgar las causas como se sugieren. Hay tiempo más tarde para filtrar las sugerencias, pero esas sugerencias pueden desencadenar la línea de pensamiento que conduce a una solución.
           .tarjeta.BG02.p-3(x="79.4%" y="28.5%" numero="+")
             p El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
+    .row.justify-content-center 
+      .tarjeta.p-3.mb-5.movil
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/template/icono-pdf.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.text-small.text-bold Descargar. El diagrama de Ishikawa.
+              .col-sm-auto
+                a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
       .col-md-10.col-12.mb-5.BG09.p-4
         LineaTiempoC.color-secundario(text-small)
           .row.justify-content-center(titulo="Paso 1")

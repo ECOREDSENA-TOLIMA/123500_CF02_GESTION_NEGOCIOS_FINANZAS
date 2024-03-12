@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Mi cápsula de planear
-        p.mb-4 #[b Objetivo:] Motivar la apropiación y relación de conceptos claves dentro de los procedimientos tácticos y operativos, logrando una adecuada asimilación y puesta en práctica de los conocimientos.
+        p.mb-4 #[b Objetivo:] motivar la apropiación y relación de conceptos claves dentro de los procedimientos tácticos y operativos, logrando una adecuada asimilación y puesta en práctica de los conocimientos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
