@@ -23,10 +23,10 @@
           span Conceptos administrativos
 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img02.svg')
+          img(src='@/assets/curso/tema1/img02.svg' alt='Imagen que define los conceptos de eficiencia, eficacia y propósito')
         
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img02_.svg')
+          img(src='@/assets/curso/tema1/img02_.svg' alt='Imagen que define los conceptos de eficiencia, eficacia y propósito')
 
     p.mb-5 Lo anterior permite, entonces, crear una organización dinámica, en la que la gerencia ayuda a su personal a adaptarse al cambio para que la organización continúe manteniendo su ventaja competitiva. Este aspecto correspondiente a la importancia de la adaptación puede llegar a significar la diferencia entre su éxito y su fracaso. Por tal motivo, se debe ver la dinámica de la siguiente forma: 
 
@@ -37,9 +37,9 @@
           span Dinámica organizacional del logro
 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img03.svg')
+          img(src='@/assets/curso/tema1/img03.svg' alt='Imagen que relaciona el proceso de una organización dinámica.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img03_.svg')
+          img(src='@/assets/curso/tema1/img03_.svg' alt='Imagen que relaciona el proceso de una organización dinámica.')
 
     p.mb-5 La administración también posee algunas características fundamentales. 
 
@@ -123,9 +123,9 @@
           span Niveles administrativos
 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img12_.svg')
+          img(src='@/assets/curso/tema1/img12_.svg' alt='Imagen que describe los aspectos que hacen parte de cada uno de los tres niveles administrativos, los cuales son la alta dirección, el mando intermedio y la gestión operativa.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img12_1.svg')
+          img(src='@/assets/curso/tema1/img12_1.svg' alt='Imagen que describe los aspectos que hacen parte de cada uno de los tres niveles administrativos, los cuales son la alta dirección, el mando intermedio y la gestión operativa.')
 
         //- ImagenInfograficaB.color-acento-botones
         //-   template(v-slot:imagen)
@@ -185,9 +185,9 @@
           span Metas y objetivos
         
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img14.svg')
+          img(src='@/assets/curso/tema1/img14.svg' alt='Imagen que indica lo que hace relación a las metas y objetivos dentro de una empresa.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img14_1.svg')
+          img(src='@/assets/curso/tema1/img14_1.svg' alt='Imagen que indica lo que hace relación a las metas y objetivos dentro de una empresa.')
     p La gestión por objetivos está estrechamente relacionada con la evaluación y revisión del desempeño; mide y juzga el desempeño individual con las metas de la organización, para aclarar tanto el trabajo a realizar como las expectativas de logro, y así fomentar la competencia, el crecimiento y motivación del subordinado y la comunicación entre partes. Adicionalmente a ello, busca servir como dispositivo de control e integración organizacional.
 
     .container.container02.p-4.p-md-5
@@ -271,9 +271,9 @@
       span Ejemplos de objetivos comunes
 
     figure.desktop(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img25.svg')
+      img(src='@/assets/curso/tema1/img25.svg' alt='Imagen que menciona a manera de ejemplo cuáles son los objetivos comunes en la organización.')
     figure.movil(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img25_1.svg')
+      img(src='@/assets/curso/tema1/img25_1.svg' alt='Imagen que menciona a manera de ejemplo cuáles son los objetivos comunes en la organización.')
 
     p Finalmente, los objetivos deben basarse en un cronograma. Es posible que se requiera que el empleado logre los objetivos en tres meses, seis meses o antes de la próxima revisión de desempeño. 
 
@@ -294,9 +294,9 @@
           span Aspectos del plan estratégico
 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img26_1.svg')
+          img(src='@/assets/curso/tema1/img26_1.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y registros, los cuales merecen especial atención dentro de una empresa.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img26_2.svg')
+          img(src='@/assets/curso/tema1/img26_2.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y registros, los cuales merecen especial atención dentro de una empresa.')
         //- <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
         //- .row.justify-content-center.align-items-center
         //-   .col-md-2.col-4.mb-md-0.mb-4
@@ -400,9 +400,9 @@
           h5 Figura 7
           span Áreas comerciales
         figure.desktop(data-aos="zoom-in")
-          img.p-4(src='@/assets/curso/tema1/img36.svg')
+          img.p-4(src='@/assets/curso/tema1/img36.svg' alt='Imagen que menciona las cuatro áreas o categorías comerciales en las cuales se basan las estrategias y estas son: finanzas, clientes, procesos comerciales y aprendizaje y crecimiento.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img36_1.svg')
+          img(src='@/assets/curso/tema1/img36_1.svg' alt='Imagen que menciona las cuatro áreas o categorías comerciales en las cuales se basan las estrategias y estas son: finanzas, clientes, procesos comerciales y aprendizaje y crecimiento.')
 
     .BGIMG03.p-4  
       p.mb-5 En otras compañías, se utiliza el término de mapa estratégico, que puede ayudar a traducir los objetivos generales en un plan de acción y objetivos específicos que se pueden alinear e implementar. El mapa de estrategias también puede ayudar a identificar desafíos estratégicos que pueden no ser obvios. 
@@ -488,9 +488,9 @@
       h5 Figura 8
       span Elementos para identificar el modelo administrativo
     figure.desktop(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img45.svg')
+      img(src='@/assets/curso/tema1/img45.svg' alt='Imagen que menciona los elementos en los que puede identificarse el modelo actual utilizado por una empresa.')
     figure.movil(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img45_1.svg')
+      img(src='@/assets/curso/tema1/img45_1.svg' alt='Imagen que menciona los elementos en los que puede identificarse el modelo actual utilizado por una empresa.')
 
     p.mb-5.mt-5 Los organigramas sirven como un mapa de la estructura administrativa de la empresa, estos departamentos pueden tener divisiones que están bajo su administración, como en el caso de los departamentos de Nóminas que están bajo el departamento de Finanzas, por ejemplo. Al observar los componentes del diagrama de flujo, se puede ver que cada uno de estos podría convertirse en unidades organizativas individuales. Siguiendo este modelo, se podría crear fácilmente un diseño que funcione con el modelo existente que utiliza la empresa; entre los más conocidos, se encuentran los siguientes.
 
@@ -575,9 +575,9 @@
           h5 Figura 9
           span Aspectos organizacionales esenciales
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img57.svg')
+          img(src='@/assets/curso/tema1/img57.svg' alt='Imagen que menciona los aspectos que se deben tener en cuenta en una organización al momento de definir un modelo de planeación estratégica.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img57_1.svg')
+          img(src='@/assets/curso/tema1/img57_1.svg' alt='Imagen que menciona los aspectos que se deben tener en cuenta en una organización al momento de definir un modelo de planeación estratégica.')
       
       .row.justify-content-center
         .col-lg-10.col-md-11.col-12
@@ -745,9 +745,9 @@
       h5 Figura 10
       span Premisas de la planeación
     figure.desktop.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img67.svg')
+      img(src='@/assets/curso/tema1/img67.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
     figure.movil.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img67_1.svg')
+      img(src='@/assets/curso/tema1/img67_1.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
 
     .row.justify-content-center.mb-5
       .col-md-10.col-12
@@ -756,9 +756,9 @@
           h5 Figura 11
           span Proceso de planeación
         figure.desktop.mb-5(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img68.svg')
+          img(src='@/assets/curso/tema1/img68.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
         figure.movil.mb-5(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img68_1.svg')
+          img(src='@/assets/curso/tema1/img68_1.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
       .col-md-6.col-12
         p Los principios de la planeación, por su parte, se pueden describir de esta manera:
 
@@ -802,9 +802,9 @@
       h5 Figura 12
       span Elementos que componen la planeación
     figure.desktop(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img75.svg')
+      img(src='@/assets/curso/tema1/img75.svg' alt='Imagen que menciona los aspectos destacados de los elementos de la planeación dentro de una organización. Recuerde que dichos elementos son: visión, misión, objetivos, estrategias, políticas, programa, presupuesto.')
     figure.movil(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img75_1.svg')
+      img(src='@/assets/curso/tema1/img75_1.svg' alt='Imagen que menciona los aspectos destacados de los elementos de la planeación dentro de una organización. Recuerde que dichos elementos son: visión, misión, objetivos, estrategias, políticas, programa, presupuesto.')
 
     p.mb-5.mt-5 Existen diferentes tipos de planeación: estratégica, táctica y operacional.
 
@@ -946,9 +946,9 @@
       h5 Figura 13
       span Características de un cronograma
     figure.desktop.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img85.svg')
+      img(src='@/assets/curso/tema1/img85.svg' alt='Imagen que menciona las características que debe tener un cronograma de actividades o programa de trabajo. ')
     figure.movil.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img85_1.svg')
+      img(src='@/assets/curso/tema1/img85_1.svg' alt='Imagen que menciona las características que debe tener un cronograma de actividades o programa de trabajo. ')
 
     .row.justify-content-center
       .col-md-10.col-12.mb-3
@@ -1025,9 +1025,9 @@
         h5 Figura 14
         span Beneficios del diagrama causa y efecto
       figure.desktop.mb-5(data-aos="zoom-in")
-        img(src='@/assets/curso/tema1/img87.svg')
+        img(src='@/assets/curso/tema1/img87.svg' alt='Imagen que menciona los beneficios del diagrama de causa y efecto y lo que estos representan; dichos beneficios son: ayuda a evitar el estancamiento, es visual, capta el pensamiento.')
       figure.movil.mb-5(data-aos="zoom-in")
-        img(src='@/assets/curso/tema1/img87_1.svg')
+        img(src='@/assets/curso/tema1/img87_1.svg' alt='Imagen que menciona los beneficios del diagrama de causa y efecto y lo que estos representan; dichos beneficios son: ayuda a evitar el estancamiento, es visual, capta el pensamiento.')
 
     p Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
 

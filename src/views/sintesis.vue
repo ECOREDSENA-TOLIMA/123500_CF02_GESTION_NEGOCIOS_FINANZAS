@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que representa a través de un esquema gráfico la temática vista durante este componente formativo; donde se destacan los procesos administrativos dentro de una organización como son: objetivos, planeación estratégica, modelos recursos, cronograma y diagrama de causa-efecto.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
