@@ -19,8 +19,8 @@
         p.mb-5 La administración es el proceso de planificación y organización de los recursos y actividades de una empresa para lograr objetivos específicos, de la manera más eficaz y eficiente posible. Para mayor claridad, la figura expone en qué consiste cada uno de los conceptos involucrados.
 
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 1
-          span Conceptos administrativos
+          h5 Figura 1.
+          span <i>Conceptos administrativos</i> 
 
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img02.svg' alt='Imagen que define los conceptos de eficiencia, eficacia y propósito')
@@ -33,8 +33,8 @@
     .row.justify-content-center.mb-5
       .col-md-10.col-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 2
-          span Dinámica organizacional del logro
+          h5 Figura 2.
+          span <i>Dinámica organizacional del logro</i> 
 
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img03.svg' alt='Imagen que relaciona el proceso de una organización dinámica.')
@@ -44,7 +44,7 @@
     p.mb-5 La administración también posee algunas características fundamentales. 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")
+      .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")(style="background-color:#E1EFE3")
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -119,8 +119,8 @@
     .row.justify-content-center.mb-5
       .col-md-10.col-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 3
-          span Niveles administrativos
+          h5 Figura 3.
+          span <i>Niveles administrativos</i> 
 
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img12_.svg' alt='Imagen que describe los aspectos que hacen parte de cada uno de los tres niveles administrativos, los cuales son la alta dirección, el mando intermedio y la gestión operativa.')
@@ -181,8 +181,8 @@
     .row.justify-content-center.mb-5
       .col-md-10.col-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 4
-          span Metas y objetivos
+          h5 Figura 4.
+          span <i>Metas y objetivos</i> 
         
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img14.svg' alt='Imagen que indica lo que hace relación a las metas y objetivos dentro de una empresa.')
@@ -190,7 +190,7 @@
           img(src='@/assets/curso/tema1/img14_1.svg' alt='Imagen que indica lo que hace relación a las metas y objetivos dentro de una empresa.')
     p La gestión por objetivos está estrechamente relacionada con la evaluación y revisión del desempeño; mide y juzga el desempeño individual con las metas de la organización, para aclarar tanto el trabajo a realizar como las expectativas de logro, y así fomentar la competencia, el crecimiento y motivación del subordinado y la comunicación entre partes. Adicionalmente a ello, busca servir como dispositivo de control e integración organizacional.
 
-    .container.container02.p-4.p-md-5
+    //- .container.container02.p-4.md-5
     p.mb-5 La administración considera tener principalmente dos tipos de objetivos, en los cuales la gerencia debe tener presentes los intereses de todas las partes interesadas de la empresa, incluidos los empleados, los clientes y el gobierno. Estos son los objetivos organizacionales generales para cualquier empresa: 
 
     .row.justify-content-center.mb-5
@@ -267,8 +267,8 @@
     p.mb-5 Es importante establecer periodos de tiempo que sean realistas y puedan lograrse razonablemente. Adicionalmente a ello, deben redactarse claramente, usando palabras de acción. Estos son algunos ejemplos de objetivos comunes de toda organización.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 5
-      span Ejemplos de objetivos comunes
+      h5 Figura 5.
+      span <i>Ejemplos de objetivos comunes</i> 
 
     figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img25.svg' alt='Imagen que menciona a manera de ejemplo cuáles son los objetivos comunes en la organización.')
@@ -290,8 +290,8 @@
         p El producto de la planeación estratégica es un documento que puede ser fácilmente compartido, entendido y seguido por varias personas, incluidos empleados, clientes, socios comerciales e inversionistas. Un plan estratégico puede actualizarse y revisarse en ese momento para reflejar cualquier cambio estratégico, pues es una hoja de ruta para llegar a los objetivos comerciales. Los siguientes tres aspectos del desarrollo de la estrategia merecen atención.
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 6
-          span Aspectos del plan estratégico
+          h5 Figura 6.
+          span <i>Aspectos del plan estratégico</i> 
 
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img26_1.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y registros, los cuales merecen especial atención dentro de una empresa.')
@@ -397,8 +397,8 @@
     .row.justify-content-center.mb-5
       .col-md-8.col-11
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 7
-          span Áreas comerciales
+          h5 Figura 7.
+          span <i>Áreas comerciales</i> 
         figure.desktop(data-aos="zoom-in")
           img.p-4(src='@/assets/curso/tema1/img36.svg' alt='Imagen que menciona las cuatro áreas o categorías comerciales en las cuales se basan las estrategias y estas son: finanzas, clientes, procesos comerciales y aprendizaje y crecimiento.')
         figure.movil(data-aos="zoom-in")
@@ -417,7 +417,7 @@
               p Por ejemplo, un objetivo de aprendizaje y crecimiento puede ser aumentar la experiencia de los empleados, pero eso puede exponer desafíos inesperados en la retención y compensación de los empleados.<br><br>
               p.mb-0 Las actividades de planeación estratégica suelen centrarse en tres áreas: comercial, corporativa y funcional; a continuación, se describe cada uno de los tipos de planes estratégicos:
           .row.justify-content-center
-            .col-xl-4.col-lg-6.col-11.mb-lg-0.mb-3
+            .col-xl-4.col-lg-6.col-md-8.mb-lg-0.mb-3
               .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
                 .indicador--hover(v-if="indicadorTarjetaFlip")
                 .tarjeta-flip__contenedor
@@ -425,14 +425,14 @@
                   .tarjeta-flip__contenido.p-md-4.p-5
                     p <b>Comercial:</b> un plan estratégico centrado en el negocio se enfoca en los aspectos competitivos de la organización, creando ventajas competitivas y oportunidades de crecimiento. 
                     p Estos planes adoptan una misión que evalúa el entorno comercial externo, establece metas y asigna recursos financieros, humanos y tecnológicos, para cumplir con esas metas.
-            .col-xl-4.col-lg-6.col-11.mb-lg-0.mb-3
+            .col-xl-4.col-lg-6.col-md-8.mb-lg-0.mb-3
               .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
                 .indicador--hover(v-if="indicadorTarjetaFlip")
                 .tarjeta-flip__contenedor
                   .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img40.svg')})`}")
                   .tarjeta-flip__contenido.p-md-4.py-5.p-5.mb-5
-                    p.mb-5.mt-5 <b>Corporativo:</b> Un plan centrado en la empresa define cómo funciona la misma. Se enfoca en organizar y alinear la estructura del negocio, sus políticas, procesos y su liderazgo, para alcanzar las metas deseadas.
-            .col-xl-4.col-lg-6.col-11.mb-lg-0.mb-3
+                    p.mb-5.mt-5 <b>Corporativo:</b> un plan centrado en la empresa define cómo funciona la misma. Se enfoca en organizar y alinear la estructura del negocio, sus políticas, procesos y su liderazgo, para alcanzar las metas deseadas.
+            .col-xl-4.col-lg-6.col-md-8.mb-lg-0.mb-3
               .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
                 .indicador--hover(v-if="indicadorTarjetaFlip")
                 .tarjeta-flip__contenedor
@@ -454,7 +454,7 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7.col-12.mb-3.order-md-1.order-1
-        p Los modelos que se desarrollan tanto al interior como en lo externo de la organización examinan la orientación de los procesos que perfeccionan el desempeño de los actores involucrados en la satisfacción de las necesidades entre las partes. Son herramientas para ayudar a una empresa a desarrollar un plan de acción. El uso de modelos de estrategia ayudan en el proceso a analizar la estructura general. 
+        p Los modelos que se desarrollan tanto al interior como en lo externo de la organización, examinan la orientación de los procesos que perfeccionan el desempeño de los actores involucrados en la satisfacción de las necesidades entre las partes. Son herramientas para ayudar a una empresa a desarrollar un plan de acción. El uso de modelos de estrategia ayudan en el proceso a analizar la estructura general. 
         p Los modelos son flexibles y pueden alertarlo sobre los ajustes necesarios. Se sugiere usarlos para competir con éxito, hacer crecer un negocio y manejar con capacidad los diversos recursos económicos, para mejorar la eficiencia productiva de una empresa.
       .col-md-5.col-12.mb-3.order-md-2.order-1
         figure(data-aos="zoom-in")
@@ -485,14 +485,14 @@
 
     //- .container.BGIMG04.px-4.px-md-5.pt-4  
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 8
-      span Elementos para identificar el modelo administrativo
+      h5 Figura 8.
+      span <i>Elementos para identificar el modelo administrativo</i> 
     figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img45.svg' alt='Imagen que menciona los elementos en los que puede identificarse el modelo actual utilizado por una empresa.')
     figure.movil(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img45_1.svg' alt='Imagen que menciona los elementos en los que puede identificarse el modelo actual utilizado por una empresa.')
 
-    p.mb-5.mt-5 Los organigramas sirven como un mapa de la estructura administrativa de la empresa, estos departamentos pueden tener divisiones que están bajo su administración, como en el caso de los departamentos de Nóminas que están bajo el departamento de Finanzas, por ejemplo. Al observar los componentes del diagrama de flujo, se puede ver que cada uno de estos podría convertirse en unidades organizativas individuales. Siguiendo este modelo, se podría crear fácilmente un diseño que funcione con el modelo existente que utiliza la empresa; entre los más conocidos, se encuentran los siguientes.
+    p.mb-5.mt-5 Los organigramas sirven como un mapa de la estructura administrativa de la empresa, estos departamentos pueden tener divisiones que están bajo su administración, como en el caso de los departamentos de nóminas que están bajo el departamento de finanzas, por ejemplo. Al observar los componentes del diagrama de flujo, se puede ver que cada uno de estos podría convertirse en unidades organizativas individuales. Siguiendo este modelo, se podría crear fácilmente un diseño que funcione con el modelo existente que utiliza la empresa; entre los más conocidos, se encuentran los siguientes.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
@@ -572,8 +572,8 @@
             p De igual forma, para su desarrollo, se hace necesario reconocer a fondo los siguientes aspectos de la organización.
       .col-lg-8.col-md-10.col-12.mb-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 9
-          span Aspectos organizacionales esenciales
+          h5 Figura 9.
+          span <i>Aspectos organizacionales esenciales</i> 
         figure.desktop(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img57.svg' alt='Imagen que menciona los aspectos que se deben tener en cuenta en una organización al momento de definir un modelo de planeación estratégica.')
         figure.movil(data-aos="zoom-in")
@@ -604,8 +604,8 @@
         p A continuación, se exponen algunos modelos de planeación estratégica, los cuales no son camisa de fuerza, puesto que la organización puede ser autora de su propio modelo de planeación estratégica.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5.mb-0 Tabla 1
-      span Modelos de planeación
+      h5.mb-0 Tabla 1.
+      span <i>Modelos de planeación</i> 
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
       table
@@ -686,50 +686,60 @@
 
     p.mb-5 Cuando se comienza un negocio, es posible que se haya pensado que todo se trataba de los ingresos que puede obtener, qué tan grande puede llegar a ser y en qué piso estará la oficina. Los recursos organizacionales se combinan, usan y transforman en productos terminados durante el proceso de producción.
 
-    .row.justify-content-center
+    //-.row.justify-content-center
       .col-md-10.col-12.mb-3
         .bloque-texto-c.color-secundario.p-4.mb-5
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h4.mb-2 Desde el punto de vista de Peter Drucker, en el escrito de Sánchez Murillo (2006), los gerentes dan dirección a sus organizaciones, brindan liderazgo y deciden cómo usar los recursos de la organización para lograr las metas.
-        p.mb-5 A continuación, se describen los tipos de recursos existentes y necesarios en una organización para posicionarse en el mercado:
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row.justify-content-center.px-4(titulo="Recursos humanos")
-            .col-md-4.col-8.mb-md-0.mb-4
-              figure
-                img(src='@/assets/curso/tema1/img61.png')
-            .col-md-8
-              p Son las personas que trabajan para una organización. Sus habilidades y conocimientos son invaluables para los gerentes. La actitud de los expertos debe administrar la organización y saber trabajarla de manera efectiva. Enfatiza la oportunidad de aplicar el conocimiento y la necesidad de aprender y crecer al hacerlo, el conocimiento no tiene sentido a menos que haya la oportunidad de aplicarlo y esto se logra a través de la exposición.
-              p La capacitación, por otro lado, es un esfuerzo organizacional destinado a ayudar a un empleado a adquirir las habilidades básicas requeridas para la ejecución efectiva y eficiente de las funciones para las que ha sido contratado.
-            p El desarrollo de la mano de obra es típicamente una parte de la estrategia de recursos humanos de la organización y tiene como objetivo maximizar el potencial del capital humano para alcanzar los objetivos comerciales estratégicos 
-          .row.justify-content-center.px-4(titulo="Recursos monetarios o financieros")
-            .col-md-4.col-8.mb-md-0.mb-4
-              figure
-                img(src='@/assets/curso/tema1/img62.png')
-            .col-md-8
-              p Estos, a menudo, incluyen efectivo, crédito y líneas de crédito, junto con la capacidad de tener opciones de planes de acciones para los empleados de la organización. La mayoría de las empresas tienen recursos financieros de manera regular, pero pocas empresas tendrán recursos financieros extremadamente sólidos, como los bancos, que se basan completamente en recursos financieros y los utilizan como un recurso clave.
-            p La función de la administración es planificar, organizar, dotar de personal, dirigir y controlar. Cada una de estas funciones está influenciada en gran medida por la cantidad de dinero que hay. Los gerentes y el personal del programa simplemente no pueden llevar a cabo sus responsabilidades asignadas de manera efectiva sin comprender sus limitaciones financieras. Los gerentes deben tener algún medio para saber lo que está sucediendo con respecto a sus recursos financieros si van a tomar decisiones gerenciales informadas. Necesitan hacer un seguimiento de cómo se gasta el dinero, un informe que dicte cuánto dinero había, cuánto se gastó, en qué se gastó y cuánto queda. 
-            p Esta responsabilidad se lleva a cabo instalando y administrando un sistema de contabilidad financiera, se dispone de una serie de programas informáticos aceptables para satisfacer esta necesidad contable. Por lo general, es innecesario para la mayoría de las organizaciones dedicar tiempo y recursos a diseñar e implementar un sistema único. 
-          .row.justify-content-center.px-4(titulo="Recursos de capital o de producción")
-            .col-md-4.col-8.mb-md-0.mb-4
-              figure
-                img(src='@/assets/curso/tema1/img63.png')
-            .col-md-8
-              p Las materias primas son los elementos utilizados directamente para la fabricación de productos, proporcionando un suministro adecuado de materiales al menor costo posible; es decir, se ocupa de las materias primas, la adquisición de máquinas y otros equipos necesarios para el proceso de producción, y repuestos para el mantenimiento de la planta. 
-              p Comienza con la determinación de la calidad y cantidad de los materiales, y finaliza con su envío a producción para satisfacer la demanda del cliente, según el cronograma y al menor costo.  
-          .row.justify-content-center.px-4(titulo="Recursos comerciales")
-            .col-md-4.col-8.mb-md-0.mb-4
-              figure
-                img(src='@/assets/curso/tema1/img64.png')
-            .col-md-8
-              p Los recursos comerciales son de naturaleza no física e intangible, como las patentes del producto, las marcas de la organización, los datos del cliente y el conocimiento del cliente, e incluso el talento en la organización como una forma de recurso intelectual. 
-              p Una vez que se desarrollan, pueden ofrecer ventajas únicas a la organización, como ofrecer descuentos y ofertas especiales para clientes habituales o compras repetidas del mismo cliente. Los tipos de recursos comerciales afectarán la sostenibilidad de la organización junto con su rentabilidad. 
-          .row.justify-content-center.px-4(titulo="Recursos físicos")
-            .col-md-4.col-8.mb-md-0.mb-4
-              figure
-                img(src='@/assets/curso/tema1/img65.png')
-            .col-md-8
-              p Estos se consideran activos tangibles que la organización utiliza para crear una oferta de valor y una propuesta para sus clientes. Los recursos físicos pueden incluir el equipo, los edificios, el inventario, la planta de fabricación y la red de distribución, que son extremadamente cruciales para que el negocio funcione correctamente. Los recursos físicos son importantes para el funcionamiento de la organización, ya que, sin cosas como equipo, inventario y planta de fabricación es difícil que la empresa funcione.
-            p Son las máquinas utilizadas durante el proceso de fabricación. Las máquinas modernas pueden mejorar en gran medida la eficiencia del proceso de fabricación. Si una organización usa maquinaria vieja y obsoleta, es posible que no pueda competir con una organización que use maquinaria más eficiente.  La gestión de materiales es la planificación, dirección, control y coordinación de aquellas actividades relacionadas con los requisitos de materiales e inventario, desde el punto de su inicio hasta su introducción en el proceso de fabricación.
+
+    .row.justify-content-center
+      .col-md-10.col-12.mb-3
+        .bloque-texto-e.color-secundario.p-4
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            h4.mb-2 Desde el punto de vista de Peter Drucker, en el escrito de Sánchez Murillo (2006), los gerentes dan dirección a sus organizaciones, brindan liderazgo y deciden cómo usar los recursos de la organización para lograr las metas.
+            i.fas.fa-quote-right
+          
+          
+    p.mb-5 A continuación, se describen los tipos de recursos existentes y necesarios en una organización para posicionarse en el mercado:
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row.justify-content-center.px-4(titulo="Recursos humanos")
+        .col-md-4.col-8.mb-md-0.mb-4
+          figure
+            img(src='@/assets/curso/tema1/img61.png')
+        .col-md-8
+          p Son las personas que trabajan para una organización. Sus habilidades y conocimientos son invaluables para los gerentes. La actitud de los expertos debe administrar la organización y saber trabajarla de manera efectiva. Enfatiza la oportunidad de aplicar el conocimiento y la necesidad de aprender y crecer al hacerlo, el conocimiento no tiene sentido a menos que haya la oportunidad de aplicarlo y esto se logra a través de la exposición.
+          p La capacitación, por otro lado, es un esfuerzo organizacional destinado a ayudar a un empleado a adquirir las habilidades básicas requeridas para la ejecución efectiva y eficiente de las funciones para las que ha sido contratado.
+        p El desarrollo de la mano de obra es típicamente una parte de la estrategia de recursos humanos de la organización y tiene como objetivo maximizar el potencial del capital humano para alcanzar los objetivos comerciales estratégicos 
+      .row.justify-content-center.px-4(titulo="Recursos monetarios o financieros")
+        .col-md-4.col-8.mb-md-0.mb-4
+          figure
+            img(src='@/assets/curso/tema1/img62.png')
+        .col-md-8
+          p Estos, a menudo, incluyen efectivo, crédito y líneas de crédito, junto con la capacidad de tener opciones de planes de acciones para los empleados de la organización. La mayoría de las empresas tienen recursos financieros de manera regular, pero pocas empresas tendrán recursos financieros extremadamente sólidos, como los bancos, que se basan completamente en recursos financieros y los utilizan como un recurso clave.
+        p La función de la administración es planificar, organizar, dotar de personal, dirigir y controlar. Cada una de estas funciones está influenciada en gran medida por la cantidad de dinero que hay. Los gerentes y el personal del programa simplemente no pueden llevar a cabo sus responsabilidades asignadas de manera efectiva sin comprender sus limitaciones financieras. Los gerentes deben tener algún medio para saber lo que está sucediendo con respecto a sus recursos financieros si van a tomar decisiones gerenciales informadas. Necesitan hacer un seguimiento de cómo se gasta el dinero, un informe que dicte cuánto dinero había, cuánto se gastó, en qué se gastó y cuánto queda. 
+        p Esta responsabilidad se lleva a cabo instalando y administrando un sistema de contabilidad financiera, se dispone de una serie de programas informáticos aceptables para satisfacer esta necesidad contable. Por lo general, es innecesario para la mayoría de las organizaciones dedicar tiempo y recursos a diseñar e implementar un sistema único. 
+      .row.justify-content-center.px-4(titulo="Recursos de capital o de producción")
+        .col-md-4.col-8.mb-md-0.mb-4
+          figure
+            img(src='@/assets/curso/tema1/img63.png')
+        .col-md-8
+          p Las materias primas son los elementos utilizados directamente para la fabricación de productos, proporcionando un suministro adecuado de materiales al menor costo posible; es decir, se ocupa de las materias primas, la adquisición de máquinas y otros equipos necesarios para el proceso de producción, y repuestos para el mantenimiento de la planta. 
+          p Comienza con la determinación de la calidad y cantidad de los materiales, y finaliza con su envío a producción para satisfacer la demanda del cliente, según el cronograma y al menor costo.  
+      .row.justify-content-center.px-4(titulo="Recursos comerciales")
+        .col-md-4.col-8.mb-md-0.mb-4
+          figure
+            img(src='@/assets/curso/tema1/img64.png')
+        .col-md-8
+          p Los recursos comerciales son de naturaleza no física e intangible, como las patentes del producto, las marcas de la organización, los datos del cliente y el conocimiento del cliente, e incluso el talento en la organización como una forma de recurso intelectual. 
+          p Una vez que se desarrollan, pueden ofrecer ventajas únicas a la organización, como ofrecer descuentos y ofertas especiales para clientes habituales o compras repetidas del mismo cliente. Los tipos de recursos comerciales afectarán la sostenibilidad de la organización junto con su rentabilidad. 
+      .row.justify-content-center.px-4(titulo="Recursos físicos")
+        .col-md-4.col-8.mb-md-0.mb-4
+          figure
+            img(src='@/assets/curso/tema1/img65.png')
+        .col-md-8
+          p Estos se consideran activos tangibles que la organización utiliza para crear una oferta de valor y una propuesta para sus clientes. Los recursos físicos pueden incluir el equipo, los edificios, el inventario, la planta de fabricación y la red de distribución, que son extremadamente cruciales para que el negocio funcione correctamente. Los recursos físicos son importantes para el funcionamiento de la organización, ya que, sin cosas como equipo, inventario y planta de fabricación es difícil que la empresa funcione.
+        p Son las máquinas utilizadas durante el proceso de fabricación. Las máquinas modernas pueden mejorar en gran medida la eficiencia del proceso de fabricación. Si una organización usa maquinaria vieja y obsoleta, es posible que no pueda competir con una organización que use maquinaria más eficiente.  La gestión de materiales es la planificación, dirección, control y coordinación de aquellas actividades relacionadas con los requisitos de materiales e inventario, desde el punto de su inicio hasta su introducción en el proceso de fabricación.
       .col-md-8.col-10.mb-3.BG07.p-3
         p.mb-0 Los recursos que son importantes para la organización y crean una propuesta de valor en el servicio a sus clientes, y además le entregan el producto, se denominan recursos clave. Estos tipos de recursos comerciales son cruciales y es importante tenerlos para que su negocio tenga éxito. Suelen basarse en recursos tangibles e intangibles.
 
@@ -742,8 +752,8 @@
     p.mb-5 Aquí es donde se pronosticarán los objetivos y metas que debe cumplir la empresa y los métodos a llevar a cabo. También contribuye a asignar eficientemente los recursos. Entre sus premisas, se encuentran:
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 10
-      span Premisas de la planeación
+      h5 Figura 10.
+      span <i>Premisas de la planeación</i> 
     figure.desktop.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img67.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
     figure.movil.mb-5(data-aos="zoom-in")
@@ -753,8 +763,8 @@
       .col-md-10.col-12
         p.mb-5 En una organización, la planeación de la gestión es el establecimiento de una estrategia que permite alcanzar un conjunto de objetivos preestablecidos. Dentro del proceso de planeación, se pueden identificar los siguientes pasos en los que se involucran algunas actividades específicas.
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 11
-          span Proceso de planeación
+          h5 Figura 11.
+          span <i>Proceso de planeación</i> 
         figure.desktop.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img68.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
         figure.movil.mb-5(data-aos="zoom-in")
@@ -762,7 +772,7 @@
       .col-md-6.col-12
         p Los principios de la planeación, por su parte, se pueden describir de esta manera:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4 col-md-8")
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img69_1.svg' alt='AvatarTop')
         .tarjeta.color-primario
@@ -799,8 +809,8 @@
 
     .container.container02.px-4.px-md-5
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 12
-      span Elementos que componen la planeación
+      h5 Figura 12.
+      span <i>Elementos que componen la planeación</i> 
     figure.desktop(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img75.svg' alt='Imagen que menciona los aspectos destacados de los elementos de la planeación dentro de una organización. Recuerde que dichos elementos son: visión, misión, objetivos, estrategias, políticas, programa, presupuesto.')
     figure.movil(data-aos="zoom-in")
@@ -870,27 +880,27 @@
       .col-md-10
         PasosA.color-acento-botones.mb-5(tipo="l")
           div
-            h4 <span style="background-color:#03386E !important; color:#fff; padding: 2px 5px;">1</span> Visualizar el plan operativo
+            h4 Visualizar el plan operativo
             p Las características principales de un plan operativo incluyen tareas para lograr objetivos particulares y claramente definidos, además de la gestión de su personal para garantizar que funcionen a niveles óptimos. Identifique su visión en lo que respecta a esos niveles y luego podrá comenzar con la fase de investigación.
           div
-            h4 <span style="background-color:#03386E !important; color:#fff; padding: 2px 5px;">2</span> Investigar e identificar metas
+            h4 Investigar e identificar metas
             p Para comenzar a desarrollar su plan operativo, comience por examinar sus objetivos, es decir, con qué presupuesto cuenta y rendición de cuentas con respecto a vigencias anteriores. Aborde esto desde una perspectiva presupuestaria, una perspectiva de recursos y desde la perspectiva de un miembro del equipo. Hay que pensar en esta época el próximo año, dentro de dos años, dentro de tres años, etc.
             p Esto puede incluir plazos de lanzamiento de productos, cantidad de productos fabricados, cantidad de casos de servicio al cliente cerrados, cantidad de reseñas de 5 estrellas recibidas, cantidad de clientes adquiridos, ingresos aumentados en un cierto porcentaje, etc.
           div
-            h4 <span style="background-color:#03386E !important; color:#fff; padding: 2px 5px;">3</span> Asignar presupuestos y personas
+            h4 Asignar presupuestos y personas
             p Una vez que haya trazado sus objetivos, es importante tener en cuenta que el presupuesto de su plan operativo proviene del presupuesto anual de su departamento. Entonces, dicho esto, el presupuesto es lo más importante a considerar al comenzar a asignar tareas, recursos y presupuesto para los miembros del equipo.
           div
-            h4 <span style="background-color:#03386E !important; color:#fff; padding: 2px 5px;">4</span> Informe sobre el plan operativo
+            h4 Informe sobre el plan operativo
             p Una vez que se haya trazado el plan operativo, que debe incluir objetivos claros con entregables, metas, cronogramas y el personal necesario para lograr el plan, hay que desarrollar un proceso para informar sobre la ejecución del plan.
 
     .cajon.color-secundario.p-4.mb-4
       p.mb-0 A modo de resumen, entonces, se pueden sintetizar los tipos de planeación de acuerdo con su periodo y amplitud, tal como se percibe en la siguiente tabla. Esto es interesante en el sentido que permite saber qué tipo de planeación se podría implementar de acuerdo con la necesidad que tenga la empresa en ese momento.
 
     .row.justify-content-center.mb-5.mt-5
-      .col-md-6.col-12.mb-3
+      .col-lg-6.col-12.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 2
-          span Tipos de planeación
+          h5 Tabla 2.
+          span <i>Tipos de planeación</i> 
 
         table.mb-5(data-aos="fade-right")
           thead
@@ -911,7 +921,7 @@
               td(style="background-color: #F6F6F6; color: #000").text-center Operacional
               td(style="background-color: #F6F6F6; color: #000").text-center Corto plazo
               td(style="background-color: #F6F6F6; color: #000").text-center Tarea, actividad o función
-      .col-md-6.col-12.mb-3
+      .col-lg-6.col-12.mb-3
         p Cada uno de estos planes enunciados anteriormente son puestos en marcha mediante un plan de acción, para contribuir a los diferentes niveles de la planeación que se desarrollan en la organización; para ello, se procede a definir ampliamente los lineamientos de los planes de acción a través del siguiente video.      
         figure
           img(src='@/assets/curso/tema1/img83.svg')
@@ -943,8 +953,8 @@
         p Asimismo, tiene unas características específicas:
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 13
-      span Características de un cronograma
+      h5 Figura 13.
+      span <i>Características de un cronograma</i> 
     figure.desktop.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img85.svg' alt='Imagen que menciona las características que debe tener un cronograma de actividades o programa de trabajo. ')
     figure.movil.mb-5(data-aos="zoom-in")
@@ -975,14 +985,14 @@
     .row.justify-content-center
       .col-md-10.col-12.mb-3
         p Un programa de actividades está destinado a ayudar a una persona a administrar sus actividades diarias. Estas son algunas sugerencias para establecer un cronograma de actividades o programa de trabajo.
-        ul.lista-ul
-          li.mb-0 
+        ul
+          li.mb-2 
             <i class="fas fa-circle fa-xs" style="color:#3AE3FE!important;"></i>
-            | Asegúrese de que las actividades que escribirá sean realistas y alcanzables.
-          li.mb-0 
+            |  Asegúrese de que las actividades que escribirá sean realistas y alcanzables.
+          li.mb-2 
             <i class="fas fa-circle fa-xs" style="color:#3AE3FE!important;"></i>
             |	Estén bien redactadas y con la estructura adecuada. 
-          li.mb-0 
+          li.mb-2 
             <i class="fas fa-circle fa-xs" style="color:#3AE3FE!important;"></i>
             |	El cronograma o la asignación de tiempo para cada actividad debe coordinarse o funcionar con dicha actividad. Si el mensaje o los subtítulos no son suficientes para transmitir una actividad, puede usar imágenes para describirla.
         p Asimismo, tenga en cuenta sus principales elementos:
@@ -997,7 +1007,7 @@
 
     .row.justify-content-center
       .col-lg-10.col-md-8.col-12
-        .tarjeta.color-primario.p-3.mb-5(style="background-color: #03386E")
+        .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema1/img86_3.svg")
@@ -1022,14 +1032,14 @@
       p Hay tres beneficios significativos al usar un diagrama de causa y efecto con un equipo.
 
       .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-        h5 Figura 14
-        span Beneficios del diagrama causa y efecto
+        h5 Figura 14.
+        span <i>Beneficios del diagrama causa y efecto</i> 
       figure.desktop.mb-5(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img87.svg' alt='Imagen que menciona los beneficios del diagrama de causa y efecto y lo que estos representan; dichos beneficios son: ayuda a evitar el estancamiento, es visual, capta el pensamiento.')
       figure.movil.mb-5(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img87_1.svg' alt='Imagen que menciona los beneficios del diagrama de causa y efecto y lo que estos representan; dichos beneficios son: ayuda a evitar el estancamiento, es visual, capta el pensamiento.')
 
-    p Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
+    p.mt-5.mb-5 Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
 
     //- .container.container02.px-4.px-md-5
     .col.desktop
@@ -1061,7 +1071,7 @@
                 a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
-      .col-md-10.col-12.mb-5.BG09.p-4
+      //-.col-md-10.col-12.mb-5.BG09.p-4
         LineaTiempoC.color-secundario(text-small)
           .row.justify-content-center(titulo="Paso 1")
             .col-md-10

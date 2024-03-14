@@ -147,7 +147,7 @@ export default {
         'Es el proceso sinérgico que consiste en definir la naturaleza de la empresa, determinar la visión, misión, valores y objetivos, realizando un análisis interno y externo, para formular, implantar y desarrollar la estrategia, ponderar y retroalimentar a mediano y largo plazo. (Núñez, 2014)',
     },
     {
-      termino: 'Diagnóstico empresarial ',
+      termino: 'Diagnóstico empresarial',
       significado:
         'Constituye una herramienta sencilla y de gran utilidad a los fines de conocer la situación actual de una organización y los problemas que impiden su crecimiento, sobrevivencia o desarrollo. Es un proceso de varios estudios realizados en las empresas de producción, servicios y de comercio.',
     },
