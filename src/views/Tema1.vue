@@ -897,7 +897,7 @@
       p.mb-0 A modo de resumen, entonces, se pueden sintetizar los tipos de planeación de acuerdo con su periodo y amplitud, tal como se percibe en la siguiente tabla. Esto es interesante en el sentido que permite saber qué tipo de planeación se podría implementar de acuerdo con la necesidad que tenga la empresa en ese momento.
 
     .row.justify-content-center.mb-5.mt-5
-      .col-lg-6.col-12.mb-3
+      .col-lg-12.col-12.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
           span <i>Tipos de planeación</i> 
@@ -923,6 +923,7 @@
               td(style="background-color: #F6F6F6; color: #000").text-center Tarea, actividad o función
       .col-lg-6.col-12.mb-3
         p Cada uno de estos planes enunciados anteriormente son puestos en marcha mediante un plan de acción, para contribuir a los diferentes niveles de la planeación que se desarrollan en la organización; para ello, se procede a definir ampliamente los lineamientos de los planes de acción a través del siguiente video.      
+      .col-lg-6.col-12.mb-3
         figure
           img(src='@/assets/curso/tema1/img83.svg')
 
@@ -950,7 +951,7 @@
         p <span style="background-color: #3AE3FE; font-weight: bold; padding: 2px 5px;">  2 </span> &nbsp;Las actividades que deben realizarse a continuación.
         p <span style="background-color: #3AE3FE; font-weight: bold; padding: 2px 5px;">  3 </span> &nbsp;Las actividades que ya se han realizado. 
         p <span style="background-color: #3AE3FE; font-weight: bold; padding: 2px 5px;">  4 </span> &nbsp;Los cambios que se producen en las actividades.
-        p Asimismo, tiene unas características específicas:
+      p Asimismo, tiene unas características específicas:
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 13.
@@ -1049,15 +1050,64 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/img88.svg')
-            .tarjeta.BG02.p-3(x="87.6%" y="69%" numero="+")
-              p El recuadro con el enunciado del problema se ubica a la derecha, aprovechando el tiempo de avance para reforzar las causas, que ocurren antes de que suceda el problema.<br><br> Hay que escribir un enunciado claro del problema (título o resumen). Incluya elementos como quién, qué, cuándo, dónde y cuánto. Sea específico y asegúrese de que todos comprendan completamente el enunciado del problema.
-            .tarjeta.BG02.p-3(x="18%" y="17%" numero="+")
+            .tarjeta.BG02.p-3(x="14.8%" y="8%" numero="+")
               p Agregue de cuatro a seis ramas primarias que sean apropiadas para el diagrama, y enumere las categorías principales para las posibles causas.
-            .tarjeta.BG02.p-3(x="31.7%" y="38%" numero="+")
-              p.mb-0 Capture notas sobre la información adicional necesaria, experimentos potenciales, etc., para no ralentizar ni distraer el proceso de enumerar las causas. Trabaje para resolver el problema y revise el diagrama a medida que haya nueva información disponible o las causas iniciales investigadas no hayan conducido a una solución para el problema. Las causas inferiores pueden no ser obvias o ser menos probables que otras.
+            .tarjeta.BG02.p-3(x="14.8%" y="31%" numero="+")
+              p El recuadro con el enunciado del problema se ubica a la derecha, aprovechando el tiempo de avance para reforzar las causas, que ocurren antes de que suceda el problema.<br><br> Hay que escribir un enunciado claro del problema (título o resumen). Incluya elementos como quién, qué, cuándo, dónde y cuánto. Sea específico y asegúrese de que todos comprendan completamente el enunciado del problema.
+            .tarjeta.BG02.p-3(x="91.4%" y="18.5%" numero="+")
+              p.mb-0 El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
+            .tarjeta.BG02.p-3(x="92%" y="54.2%" numero="+")
+              p Capture notas sobre la información adicional necesaria, experimentos potenciales, etc., para no ralentizar ni distraer el proceso de enumerar las causas. Trabaje para resolver el problema y revise el diagrama a medida que haya nueva información disponible o las causas iniciales investigadas no hayan conducido a una solución para el problema. Las causas inferiores pueden no ser obvias o ser menos probables que otras.
               p Es una sesión de lluvia de ideas, por lo tanto, abstenerse de criticar o juzgar las causas como se sugieren. Hay tiempo más tarde para filtrar las sugerencias, pero esas sugerencias pueden desencadenar la línea de pensamiento que conduce a una solución.
-            .tarjeta.BG02.p-3(x="79.4%" y="28.5%" numero="+")
-              p El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
+            .tarjeta.BG02.p-3(x="25.2%" y="89.2%" numero="1")
+              <b> Paso No. 1. </b> Decidir sobre el efecto a examinar. El efecto se expresa como una cualidad particular, a través de características, problemas derivados del trabajo, objetivos de planificación, etc.
+                ul.lista-ul
+                  li.mb-0 
+                    <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                    | Desarrolle una definición operativa del efecto y asegurarse de que se entienda claramente.
+                  li.mb-0 
+                    <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                    | Recuerde, el efecto puede ser positivo (un objetivo) o negativo (un problema), dependiendo del tema que se esté discutiendo.
+            .tarjeta.BG02.p-3(x="33.4%" y="89.1%" numero="2")
+              p <b> Paso No. 2. </b> Utilizar o seleccionar una herramienta de gráficos colocada de manera que todos puedan verla. Luego, hay que realizar el diagrama de esta manera:
+                ul.lista-ul
+                  li.mb-0 
+                    <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                    | Dibujar una flecha horizontal que apunte hacia la derecha (esta es la columna vertebral).
+                  li.mb-0 
+                    <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                    | A la derecha de la flecha, escribir una breve descripción del efecto o resultado que surge del proceso.
+            .tarjeta.BG02.p-3(x="41.8%" y="89%" numero="3") 
+              p <b> Paso No. 3. </b> Identificar las causas principales que contribuyen al efecto que se está estudiando. Estas son las etiquetas para las principales ramas del diagrama y se convierten en categorías bajo las cuales enumerar las muchas causas relacionadas con las mismas. Luego de etiquetar, hay que trazar una línea diagonal para formar una rama que conecta la categoría con la columna vertebral.
+            .tarjeta.BG02.p-3(x="50%" y="89%" numero="4")
+              p <b> Paso No. 4. </b> Identificar tantas causas o factores como sea posible y adjuntarlos como subramas de las ramas principales.
+                ul.lista-ul
+                  li.mb-0 
+                    <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                    | Si una causa menor se aplica a más de una causa mayor, hay que anotar ambas. 
+            .tarjeta.BG02.p-3(x="58.2%" y="89%" numero="5")
+              p <b> Paso No. 5. </b> Identificar niveles de causas cada vez más detallados y continuar con el diseño del diagrama. Las causas se pueden organizar mediante la formulación de la pregunta por qué.
+            .tarjeta.BG02.p-3(x="66.5%" y="89%" numero="6")
+              p <b> Paso No. 6. </b> Analizar el diagrama para identificar las causas que justifican el problema. Dado que los diagramas de causa y efecto identifican solo posibles causas, hay que buscar las causas que aparecen repetidamente, pues estas pueden representar causas fundamentales. También es necesario buscar aquellas que se pueden medir y cuantificar para posibles cambios que se realicen. 
+              p Este último paso es crucial, ya que invita a analizar en equipo el resultado del diagrama de causa y efecto. En esta etapa, se debe tener un diagrama que muestre todas las posibles causas del problema que se les ocurran. Esto puede implicar la exploración e indagación, la realización de encuestas y entrevistas, además de evaluaciones diseñadas para probar cuál de estas posibles causas está realmente contribuyendo al problema.
+            .tarjeta.BG02.p-3(x="74.8%" y="89%" numero="+")
+              ul.lista-ul
+                li.mb-0 
+                  <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                  | Identifica las posibles causas raíz, las razones básicas, para un efecto específico, problema o condición.
+                li.mb-0 
+                  <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                  | Ordena y relaciona algunas de las interacciones entre los factores que afectan un proceso o situación particular.
+                li.mb-0 
+                  <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                  | Analiza los problemas existentes para que se puedan tomar acciones correctivas.
+                li.mb-0 
+                  <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                  | Indaga sobre problemas de mantenimiento con las herramientas utilizadas o la cantidad de herramientas disponibles.
+                li.mb-0 
+                  <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
+                  | Es flexible y adaptable. Se puede usar también en problemas con materias primas, tiempo, transporte, calidad de los suministros, entre otros.
+
     .row.justify-content-center 
       .tarjeta.p-3.mb-5.movil
         .row.justify-content-around.align-items-center
