@@ -550,7 +550,7 @@
         h4.ps-5.pb-3.mb-0.fondo1 Modelos de planeación estratégica
 
     p Un modelo de planeación estratégica es un término colectivo para varios elementos que contribuyen al proceso de planificación estratégica. Se puede pensar en los modelos de planificación estratégica como plantillas en las que puede colocar sus propias ideas. Al final, obtendrá un plan estratégico que está estructurado de manera sensata y le brinda un conjunto claro de acciones sobre las cuales trabajar.
-    p.mb-5 Los modelos de planeación estratégica proporcionan una estructura general que aplica a su proceso de planificación estratégica; es decir, los modelos de planificación estratégica proporcionan una forma de estructurar la información de su estrategia y el contenido de su plan estratégico, los diversos componentes y cómo interactúan entre sí de manera coherente: lo que hacen, cómo encajan y en qué orden. 
+    p.mb-5 Los modelos de planeación estratégica proporcionan una estructura general que aplica a su proceso de planificación estratégica; es decir, los modelos de planificación estratégica proporcionan una forma de estructurar la información de su estrategia y el contenido de su plan estratégico, los diversos componentes y cómo interactúan entre sí de manera coherente: lo que hacen, cómo encajan y en qué orden.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-md-11.col-12.BGIMG05.py-4  
