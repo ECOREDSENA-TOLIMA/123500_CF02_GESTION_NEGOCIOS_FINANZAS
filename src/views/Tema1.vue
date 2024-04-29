@@ -43,23 +43,23 @@
 
     p.mb-5 La administración también posee algunas características fundamentales. 
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5(data-aos="fade-right")(style="background-color:#E1EFE3")
+    .tarjeta--container.row.mb-5(data-aos="fade-right")
+      .col-md.tarjeta.color-primario.p-5(style="background-color:#0C5E46")
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema1/img04.svg')
-        h4.text-center Multidimensional
-        p La mayoría de la gerencia supervisa el servicio o el ciclo de producción de una empresa u organización. Los gerentes trabajan en estrecha colaboración y brindan orientación a los miembros de su equipo. Un gerente considera a un miembro del personal como un individuo con diversas necesidades y como un componente del grupo más grande. Para ser efectivos, los gerentes influyen en los miembros de su equipo para que apliquen sus fortalezas únicas para lograr las metas de la organización.
-      .col-md.tarjeta.color-acento-contenido.p-5
+        h4.text-center(style="color: #ffffff") Multidimensional
+        p(style="color: #ffffff") La mayoría de la gerencia supervisa el servicio o el ciclo de producción de una empresa u organización. Los gerentes trabajan en estrecha colaboración y brindan orientación a los miembros de su equipo. Un gerente considera a un miembro del personal como un individuo con diversas necesidades y como un componente del grupo más grande. Para ser efectivos, los gerentes influyen en los miembros de su equipo para que apliquen sus fortalezas únicas para lograr las metas de la organización.
+      .col-md.tarjeta.color-acento-contenido.p-5(style="background-color:#03386E")
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema1/img05.svg')
-        h4.text-center Dinámica
-        p La administración es una función dinámica que evoluciona y se adapta a los cambios de su entorno, ya sean económicos, sociopolíticos o tecnológicos. 
-        p Que la empresa pueda sobrevivir todavía depende de la eficacia con la que su administración pueda adaptarse a los nuevos requisitos del mercado.
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos="fade-left")
+        h4(style="color: #ffffff").text-center Dinámica
+        p(style="color: #ffffff") La administración es una función dinámica que evoluciona y se adapta a los cambios de su entorno, ya sean económicos, sociopolíticos o tecnológicos. 
+        p(style="color: #ffffff") Que la empresa pueda sobrevivir todavía depende de la eficacia con la que su administración pueda adaptarse a los nuevos requisitos del mercado.
+      .col-md.tarjeta.color-acento-botones.p-5(style="background-color:#6DEBFF")
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -70,7 +70,7 @@
     p.mb-5 Ahora bien, dichas características se fundamentan en las funciones de la administración, las cuales se explican a continuación:
 
     TabsC.color-acento-botones.mb-5
-      .py-3.py-md-4.px-4.BG02(titulo="Planeación")
+      .py-3.py-md-4.px-4.BG03(titulo="Planeación")
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-3
             figure
@@ -79,7 +79,7 @@
             p La planeación implica la creación de una línea de tiempo de las tareas que deben completarse para lograr un objetivo específico. Los gerentes ejecutan la planeación, que debe llevarse a cabo de manera sistemática para evitar el desperdicio de recursos y tiempo. Un plan de acción detallado minimiza la confusión, el riesgo, el desperdicio y la incertidumbre. 
             .BG01.px-3.py-2
               p Por ejemplo, la alta dirección de una pequeña empresa puede establecer un objetivo de ventas alto para un trimestre y así compensar las pérdidas del trimestre anterior. El fundador de una empresa nueva puede planear hacer esfuerzos formales para asociarse con el gobierno y otras instituciones grandes para expandir la escala de sus operaciones.
-      .py-3.py-md-4.px-4.BG02(titulo="Organización")
+      .py-3.py-md-4.px-4.BG03(titulo="Organización")
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-3
             figure
@@ -88,7 +88,7 @@
             p El objetivo de la organización es fomentar una relación simbiótica entre el personal, los recursos financieros y físicos de la empresa. La adecuada organización proporciona el curso de acción que cumple con todos los parámetros para el éxito. La organización implica la identificación y clasificación de las actividades empresariales, la delegación y la coordinación. 
             .BG01.px-3.py-2
               p Por ejemplo, los altos directivos pueden asignar fondos o recursos a diferentes sucursales. Los gerentes de sucursal, luego, deben asignar fondos a los departamentos dentro de la sucursal, según sus requisitos operativos. Posteriormente, los jefes de departamento realizan un seguimiento del gasto diario de los fondos.
-      .py-3.py-md-4.px-4.BG02(titulo="Talento humano")
+      .py-3.py-md-4.px-4.BG03(titulo="Talento humano")
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-3
             figure
@@ -96,7 +96,7 @@
           .col-md-7.col-12
             p La dotación de personal implica reclutar y formar un equipo para la organización. El proceso de dotación de personal de las empresas suele ser largo y profundo. 
             p La gerencia identifica los roles profesionales en la empresa y las habilidades/cualidades requeridas para desempeñarse bien en estos roles. Luego, el gerente selecciona al personal para esos roles a través de los procesos de contratación. Una vez seleccionados, los candidatos reciben formación y se incorporan a la plantilla de la empresa. Los gerentes también son responsables de otorgar evaluaciones y promociones como parte de la dotación de personal
-      .py-3.py-md-4.px-4.BG02(titulo="Dirección")
+      .py-3.py-md-4.px-4.BG03(titulo="Dirección")
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-3
             figure
@@ -104,7 +104,7 @@
           .col-md-7.col-12
             p Dirigir implica dar los pasos necesarios para poner en marcha el trabajo y mantener la productividad para lograr los objetivos de la empresa, mediante acciones como supervisar, motivar y orientar a los miembros del personal; lo que es fundamental para las funciones de un gerente. 
             p También requiere excelentes habilidades de liderazgo, comunicación y relaciones interpersonales para impulsar al equipo hacia la consecución de los objetivos de la organización.
-      .py-3.py-md-4.px-4.BG02(titulo="Control")
+      .py-3.py-md-4.px-4.BG03(titulo="Control")
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-3
             figure
@@ -172,7 +172,7 @@
 
     separador
 
-    .container.BGIMG01.px-4.px-md-5.pt-4
+    //- .container.BGIMG01.px-4.px-md-5.pt-4
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1	Objetivos 
 
@@ -465,9 +465,8 @@
         .BG04_1.p-2
           p.mb-0.text-center(style="color: #FFFFFF") Estos son algunos de los modelos a seguir: modelos administrativos, modelos de planeación estratégica y modelos gerenciales.
 
-    .row.mb-5
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo1 Modelos administrativos
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Modelos administrativos
 
     p.mb-5  Un modelo administrativo describe la organización de una empresa y muestra cómo se gestiona y cómo se ve en el organigrama de una empresa. Un modelo administrativo es una estructura lógica, conformada por componentes que permiten organizar la direccionalidad y los recursos.
     p.mb-5 El personal se asignará a diferentes departamentos, que estarán bajo la jurisdicción de personas de otros departamentos, que responderán a su vez a las divisiones de gestión, que, en última instancia, rendirán cuentas a la alta dirección. En algunos casos, la empresa puede dividirse aún más en sucursales o divisiones que residen en diferentes ubicaciones geográficas, o se separan por motivos comerciales o políticos, debido a que la estructura y la cadena de mando de una empresa variarán frente a las demás; de ahí la importancia de comprender el modelo administrativo que se utiliza.
@@ -496,7 +495,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
-        .BG05.p-5
+        .tarjeta.tarjeta--azul1.p-5
           SlyderA(tipo="b")
             .row.justify-content-center
               .col-lg-6.col-11
@@ -545,9 +544,9 @@
                   img(src='@/assets/curso/tema1/img51.svg')
 
     .container.container02.px-4.px-md-5
-    .row.mb-5
-      .col-auto
-        h4.ps-5.pb-3.mb-0.fondo1 Modelos de planeación estratégica
+    .row
+      .h4.mb-4(data-aos="zoom-down-right")
+        span.titulo-herramientas(style="color: #0C5E46") Modelos de planeación estratégica
 
     p Un modelo de planeación estratégica es un término colectivo para varios elementos que contribuyen al proceso de planificación estratégica. Se puede pensar en los modelos de planificación estratégica como plantillas en las que puede colocar sus propias ideas. Al final, obtendrá un plan estratégico que está estructurado de manera sensata y le brinda un conjunto claro de acciones sobre las cuales trabajar.
     p.mb-5 Los modelos de planeación estratégica proporcionan una estructura general que aplica a su proceso de planificación estratégica; es decir, los modelos de planificación estratégica proporcionan una forma de estructurar la información de su estrategia y el contenido de su plan estratégico, los diversos componentes y cómo interactúan entre sí de manera coherente: lo que hacen, cómo encajan y en qué orden.
@@ -636,9 +635,9 @@
             td *Mercados para crecer.<br>*Capturar nueva demanda.<br>*Productos únicos.<br>*No haya competencia.
             td *Análisis DOFA (debilidades, oportunidades, fortalezas y amenazas).<br>*Misión.<br>*Planeación.<br>*Presupuesto.<br>*Cronograma.<br>*Monitoreo o control de los avances.
 
-    .row.mb-5
-      .col-auto
-        h4.ps-5.pb-3.mb-0.fondo1 Modelos gerenciales
+    .row
+      .h4.mb-4(data-aos="zoom-down-right")
+        span.titulo-herramientas(style="color: #0C5E46") Modelos gerenciales
 
     p.mb-5 Este tipo de modelo, al igual que los anteriores, tiene una clasificación específica, la cual está enfocada, como bien lo indica, en procesos gerenciales de una organización. Dependiendo del logro a alcanzar, se implementa alguno de estos modelos.
 
@@ -656,7 +655,7 @@
         div(x="33.4%" y="72%" )
           .row.justify-content-center.align-items-center
             .col-md-11
-              h5 Kaizen
+              h5 <i>Kaizen</i>
               p Cuando se aplica al lugar de trabajo, significa una mejora continua que involucra a todos, tanto a los gerentes como a los trabajadores, implica hacer que el ambiente de trabajo sea más eficiente y eficaz, creando una atmósfera de equipo, mejorando los procedimientos cotidianos y asegurando el compromiso de los empleados.
         div(x="50.6%" y="72%" )
           .row.justify-content-center.align-items-center
@@ -740,70 +739,71 @@
         .col-md-8
           p Estos se consideran activos tangibles que la organización utiliza para crear una oferta de valor y una propuesta para sus clientes. Los recursos físicos pueden incluir el equipo, los edificios, el inventario, la planta de fabricación y la red de distribución, que son extremadamente cruciales para que el negocio funcione correctamente. Los recursos físicos son importantes para el funcionamiento de la organización, ya que, sin cosas como equipo, inventario y planta de fabricación es difícil que la empresa funcione.
         p Son las máquinas utilizadas durante el proceso de fabricación. Las máquinas modernas pueden mejorar en gran medida la eficiencia del proceso de fabricación. Si una organización usa maquinaria vieja y obsoleta, es posible que no pueda competir con una organización que use maquinaria más eficiente.  La gestión de materiales es la planificación, dirección, control y coordinación de aquellas actividades relacionadas con los requisitos de materiales e inventario, desde el punto de su inicio hasta su introducción en el proceso de fabricación.
+    .row.justify-content-center.mb-5
       .col-md-8.col-10.mb-3.BG07.p-3
         p.mb-0 Los recursos que son importantes para la organización y crean una propuesta de valor en el servicio a sus clientes, y además le entregan el producto, se denominan recursos clave. Estos tipos de recursos comerciales son cruciales y es importante tenerlos para que su negocio tenga éxito. Suelen basarse en recursos tangibles e intangibles.
 
     separador
 
-    //- .container.BGIMG07.px-4.px-md-5.pt-4  
-    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5 Planeación
+    .container.BGIMG07.px-4.px-md-5.pt-4  
+      #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.5 Planeación
 
-    p.mb-5 Aquí es donde se pronosticarán los objetivos y metas que debe cumplir la empresa y los métodos a llevar a cabo. También contribuye a asignar eficientemente los recursos. Entre sus premisas, se encuentran:
+      p.mb-5 Aquí es donde se pronosticarán los objetivos y metas que debe cumplir la empresa y los métodos a llevar a cabo. También contribuye a asignar eficientemente los recursos. Entre sus premisas, se encuentran:
 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 10.
-      span <i>Premisas de la planeación</i> 
-    figure.desktop.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img67.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
-    figure.movil.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img67_1.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
+      .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+        h5 Figura 10.
+        span <i>Premisas de la planeación</i> 
+      figure.desktop.mb-5(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img67.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
+      figure.movil.mb-5(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img67_1.svg' alt='Imagen que menciona cuáles son las premisas de la planeación.')
 
-    .row.justify-content-center.mb-5
-      .col-md-10.col-12
-        p.mb-5 En una organización, la planeación de la gestión es el establecimiento de una estrategia que permite alcanzar un conjunto de objetivos preestablecidos. Dentro del proceso de planeación, se pueden identificar los siguientes pasos en los que se involucran algunas actividades específicas.
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 11.
-          span <i>Proceso de planeación</i> 
-        figure.desktop.mb-5(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img68.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
-        figure.movil.mb-5(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img68_1.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
-      .col-md-6.col-12
-        p Los principios de la planeación, por su parte, se pueden describir de esta manera:
+      .row.justify-content-center.mb-5
+        .col-md-10.col-12
+          p.mb-5 En una organización, la planeación de la gestión es el establecimiento de una estrategia que permite alcanzar un conjunto de objetivos preestablecidos. Dentro del proceso de planeación, se pueden identificar los siguientes pasos en los que se involucran algunas actividades específicas.
+          .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+            h5 Figura 11.
+            span <i>Proceso de planeación</i> 
+          figure.desktop.mb-5(data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/img68.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
+          figure.movil.mb-5(data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/img68_1.svg' alt='Imagen que menciona cuál es el proceso de cada uno de los pasos de la planeación de la gestión; dichos pasos son: fijar los objetivos de la organización, diseñar posibles escenarios futuros, diseñar un plan, implementar el plan, evaluar el plan, readaptar el plan.')
+        .col-md-6.col-12
+          p Los principios de la planeación, por su parte, se pueden describir de esta manera:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4 col-md-8")
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img69_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-5
-              p <b>Inherencia:</b> toda organización debe contar con un plan que determine cómo resolver determinados problemas y así alcanzar los objetivos de la forma más eficiente posible.
+              p(style="color: #ffffff") <b>Inherencia:</b> toda organización debe contar con un plan que determine cómo resolver determinados problemas y así alcanzar los objetivos de la forma más eficiente posible.
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img70_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-4
-              p.mb-0 <b>Racionalidad:</b> consiste en comprender un problema para luego determinar los criterios de diseño del plan, el establecimiento de alternativas y su aplicación. 
-              p Las decisiones deben tomarse con base en la lógica y la razón, no de acuerdo con las emociones y los valores.
+              p(style="color: #ffffff").mb-0 <b>Racionalidad:</b> consiste en comprender un problema para luego determinar los criterios de diseño del plan, el establecimiento de alternativas y su aplicación. 
+              p(style="color: #ffffff") Las decisiones deben tomarse con base en la lógica y la razón, no de acuerdo con las emociones y los valores.
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img71_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-5
-              p.mb-0 <b>Unidad:</b> se asignan objetivos que, a su vez, deberán orientarse hacia una meta común; si bien existe un plan para cada una de las funciones, todas deben unirse en un plan principal.
+              p(style="color: #ffffff").mb-0 <b>Unidad:</b> se asignan objetivos que, a su vez, deberán orientarse hacia una meta común; si bien existe un plan para cada una de las funciones, todas deben unirse en un plan principal.
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img72_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-5
-              p.mb-0 <b>Compromiso:</b> para llegar a la meta, se debe calcular el tiempo que implica el compromiso de cada recurso.
+              p(style="color: #ffffff").mb-0 <b>Compromiso:</b> para llegar a la meta, se debe calcular el tiempo que implica el compromiso de cada recurso.
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img73_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-5
-              p.mb-0 <b>Exactitud:</b> el plan debe ser exacto, cualquier error puede afectar el resto de funciones de la organización, cuanto más precisos los planes, mayores serán las posibilidades de lograr los objetivos.
+              p(style="color: #ffffff").mb-0 <b>Exactitud:</b> el plan debe ser exacto, cualquier error puede afectar el resto de funciones de la organización, cuanto más precisos los planes, mayores serán las posibilidades de lograr los objetivos.
       .tarjeta-avatar
         img.imagen02(src='@/assets/curso/tema1/img74_1.svg' alt='AvatarTop')
-        .tarjeta.color-primario
+        .tarjeta.color-primario1
             .p-5
-              p.mb-0 <b>Factibilidad:</b> todo plan debe ser realista: diseñado con base en la experiencia, hechos concretos y recursos disponibles.            
+              p(style="color: #ffffff").mb-0 <b>Factibilidad:</b> todo plan debe ser realista: diseñado con base en la experiencia, hechos concretos y recursos disponibles.            
 
     p.mb-5 Ahora bien, con base en toda la descripción previamente dada sobre la planeación, se destacan ciertos elementos que la componen de manera transversal. 
 
@@ -878,7 +878,7 @@
 
     .row.justify-content-center
       .col-md-10
-        PasosA.color-acento-botones.mb-5(tipo="l")
+        PasosA.color-acento-contenido.mb-5(tipo="l")
           div
             h4 Visualizar el plan operativo
             p Las características principales de un plan operativo incluyen tareas para lograr objetivos particulares y claramente definidos, además de la gestión de su personal para garantizar que funcionen a niveles óptimos. Identifique su visión en lo que respecta a esos niveles y luego podrá comenzar con la fase de investigación.
@@ -896,8 +896,8 @@
     .cajon.color-secundario.p-4.mb-4
       p.mb-0 A modo de resumen, entonces, se pueden sintetizar los tipos de planeación de acuerdo con su periodo y amplitud, tal como se percibe en la siguiente tabla. Esto es interesante en el sentido que permite saber qué tipo de planeación se podría implementar de acuerdo con la necesidad que tenga la empresa en ese momento.
 
-    .row.justify-content-center.mb-5.mt-5
-      .col-lg-12.col-12.mb-3
+    .row.justify-content-center.mb-5.mt-5.align-items-center
+      .col-lg-6.col-12.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
           span <i>Tipos de planeación</i> 
@@ -922,8 +922,7 @@
               td(style="background-color: #F6F6F6; color: #000").text-center Corto plazo
               td(style="background-color: #F6F6F6; color: #000").text-center Tarea, actividad o función
       .col-lg-6.col-12.mb-3
-        p Cada uno de estos planes enunciados anteriormente son puestos en marcha mediante un plan de acción, para contribuir a los diferentes niveles de la planeación que se desarrollan en la organización; para ello, se procede a definir ampliamente los lineamientos de los planes de acción a través del siguiente video.      
-      .col-lg-6.col-12.mb-3
+        p Cada uno de estos planes enunciados anteriormente son puestos en marcha mediante un #[b plan de acción], para contribuir a los diferentes niveles de la planeación que se desarrollan en la organización; para ello, se procede a definir ampliamente los lineamientos de los planes de acción a través del siguiente video.      
         figure
           img(src='@/assets/curso/tema1/img83.svg')
 
@@ -970,15 +969,15 @@
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/img86_1.svg')
-        .tarjeta.BG02.p-3(x="16%" y="79%" numero="+")
+        .tarjeta.BG03.p-3(x="16%" y="79%" numero="+")
           p Para hacer un cronograma de actividades, es importante hacer una lista aproximada de las actividades que se desean desarrollar en un lapso, con una idea clara de las responsabilidades para cada colaborador.
-        .tarjeta.BG02.p-3(x="33.4%" y="79%" numero="+")
+        .tarjeta.BG03.p-3(x="33.4%" y="79%" numero="+")
           p La ejecución de las actividades o responsabilidades debe ser planificada. Se necesita establecer distintas formas de completar las diferentes actividades; este proceso le da un detalle minucioso del tiempo que estima para cada actividad y cuánto le queda para el cumplimiento de ella.
-        .tarjeta.BG02.p-3(x="50.6%" y="79%" numero="+")
+        .tarjeta.BG03.p-3(x="50.6%" y="79%" numero="+")
           p Sus actividades deben seguir un orden cronológico u orden de procesos; es mejor si fluye según una secuencia, para que pueda establecer una interconexión con las actividades anteriores y posteriores.
-        .tarjeta.BG02.p-3(x="68%" y="79%" numero="+")
+        .tarjeta.BG03.p-3(x="68%" y="79%" numero="+")
           p Cada actividad debe completarse dentro de un marco de tiempo. Se puede establecer un límite para cada una de las actividades y responsabilidades, para que los involucrados en la ejecución de las actividades las desarrollen en el tiempo estipulado.
-        .tarjeta.BG02.p-3(x="84.6%" y="79%" numero="+")
+        .tarjeta.BG03.p-3(x="84.6%" y="79%" numero="+")
           p Una vez que haya diseñado su plan de programación de actividades, se debe mantener su ejecución y finalización dentro del marco de tiempo establecido. Mantener las actividades le ayudará a obtener un resultado efectivo en la planeación.
     figure.movil
       img(src='@/assets/curso/tema1/img86_2.svg')
@@ -1008,17 +1007,17 @@
 
     .row.justify-content-center
       .col-lg-10.col-md-8.col-12
-        .tarjeta.color-primario.p-3.mb-5
+        .tarjeta.color-primario2.p-3.mb-5(style="background-color: #03386E")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema1/img86_3.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Elementos de un cronograma de actividades
-                  p.text-small Conozca en el siguiente enlace los elementos principales que conforman un cronograma de actividades o programa de trabajo.
+                  h3(style="color: #ffffff").mb-1 Elementos de un cronograma de actividades
+                  p(style="color: #ffffff").text-small Conozca en el siguiente enlace los elementos principales que conforman un cronograma de actividades o programa de trabajo.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo_cronogramas.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_cronogramas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -1043,23 +1042,23 @@
     p.mt-5.mb-5 Asimismo, este diagrama cuenta con  una estructura específica y un proceso de elaboración determinado, tal como se aprecia en el siguiente interactivo.
 
     //- .container.container02.px-4.px-md-5
-    .col.desktop
+    .col
       .row.justify-content-center
         .col-md-10.col-12.mb-5
-          ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+          ImagenInfografica.imagen04.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/img88.svg')
-            .tarjeta.BG02.p-3(x="14.8%" y="8%" numero="+")
+            .tarjeta.BG03.p-3(x="14.8%" y="8%" numero="+")
               p Agregue de cuatro a seis ramas primarias que sean apropiadas para el diagrama, y enumere las categorías principales para las posibles causas.
-            .tarjeta.BG02.p-3(x="14.8%" y="31%" numero="+")
+            .tarjeta.BG03.p-3(x="14.8%" y="31%" numero="+")
               p El recuadro con el enunciado del problema se ubica a la derecha, aprovechando el tiempo de avance para reforzar las causas, que ocurren antes de que suceda el problema.<br><br> Hay que escribir un enunciado claro del problema (título o resumen). Incluya elementos como quién, qué, cuándo, dónde y cuánto. Sea específico y asegúrese de que todos comprendan completamente el enunciado del problema.
-            .tarjeta.BG02.p-3(x="91.4%" y="18.5%" numero="+")
+            .tarjeta.BG03.p-3(x="91.4%" y="18.5%" numero="+")
               p.mb-0 El diagrama debe ser visible para todo el equipo involucrado en el trabajo del problema.
-            .tarjeta.BG02.p-3(x="92%" y="54.2%" numero="+")
+            .tarjeta.BG03.p-3(x="92%" y="54.2%" numero="+")
               p Capture notas sobre la información adicional necesaria, experimentos potenciales, etc., para no ralentizar ni distraer el proceso de enumerar las causas. Trabaje para resolver el problema y revise el diagrama a medida que haya nueva información disponible o las causas iniciales investigadas no hayan conducido a una solución para el problema. Las causas inferiores pueden no ser obvias o ser menos probables que otras.
               p Es una sesión de lluvia de ideas, por lo tanto, abstenerse de criticar o juzgar las causas como se sugieren. Hay tiempo más tarde para filtrar las sugerencias, pero esas sugerencias pueden desencadenar la línea de pensamiento que conduce a una solución.
-            .tarjeta.BG02.p-3(x="25.2%" y="89.2%" numero="1")
+            .tarjeta.BG03.p-3(x="25.2%" y="89.2%" numero="1")
               <b> Paso No. 1. </b> Decidir sobre el efecto a examinar. El efecto se expresa como una cualidad particular, a través de características, problemas derivados del trabajo, objetivos de planificación, etc.
                 ul.lista-ul
                   li.mb-0 
@@ -1068,7 +1067,7 @@
                   li.mb-0 
                     <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                     | Recuerde, el efecto puede ser positivo (un objetivo) o negativo (un problema), dependiendo del tema que se esté discutiendo.
-            .tarjeta.BG02.p-3(x="33.4%" y="89.1%" numero="2")
+            .tarjeta.BG03.p-3(x="33.4%" y="89.1%" numero="2")
               p <b> Paso No. 2. </b> Utilizar o seleccionar una herramienta de gráficos colocada de manera que todos puedan verla. Luego, hay que realizar el diagrama de esta manera:
                 ul.lista-ul
                   li.mb-0 
@@ -1077,20 +1076,20 @@
                   li.mb-0 
                     <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                     | A la derecha de la flecha, escribir una breve descripción del efecto o resultado que surge del proceso.
-            .tarjeta.BG02.p-3(x="41.8%" y="89%" numero="3") 
+            .tarjeta.BG03.p-3(x="41.8%" y="89%" numero="3") 
               p <b> Paso No. 3. </b> Identificar las causas principales que contribuyen al efecto que se está estudiando. Estas son las etiquetas para las principales ramas del diagrama y se convierten en categorías bajo las cuales enumerar las muchas causas relacionadas con las mismas. Luego de etiquetar, hay que trazar una línea diagonal para formar una rama que conecta la categoría con la columna vertebral.
-            .tarjeta.BG02.p-3(x="50%" y="89%" numero="4")
+            .tarjeta.BG03.p-3(x="50%" y="89%" numero="4")
               p <b> Paso No. 4. </b> Identificar tantas causas o factores como sea posible y adjuntarlos como subramas de las ramas principales.
                 ul.lista-ul
                   li.mb-0 
                     <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                     | Si una causa menor se aplica a más de una causa mayor, hay que anotar ambas. 
-            .tarjeta.BG02.p-3(x="58.2%" y="89%" numero="5")
+            .tarjeta.BG03.p-3(x="58.2%" y="89%" numero="5")
               p <b> Paso No. 5. </b> Identificar niveles de causas cada vez más detallados y continuar con el diseño del diagrama. Las causas se pueden organizar mediante la formulación de la pregunta por qué.
-            .tarjeta.BG02.p-3(x="66.5%" y="89%" numero="6")
+            .tarjeta.BG03.p-3(x="66.5%" y="89%" numero="6")
               p <b> Paso No. 6. </b> Analizar el diagrama para identificar las causas que justifican el problema. Dado que los diagramas de causa y efecto identifican solo posibles causas, hay que buscar las causas que aparecen repetidamente, pues estas pueden representar causas fundamentales. También es necesario buscar aquellas que se pueden medir y cuantificar para posibles cambios que se realicen. 
               p Este último paso es crucial, ya que invita a analizar en equipo el resultado del diagrama de causa y efecto. En esta etapa, se debe tener un diagrama que muestre todas las posibles causas del problema que se les ocurran. Esto puede implicar la exploración e indagación, la realización de encuestas y entrevistas, además de evaluaciones diseñadas para probar cuál de estas posibles causas está realmente contribuyendo al problema.
-            .tarjeta.BG02.p-3(x="74.8%" y="89%" numero="+")
+            .tarjeta.BG03.p-3(x="74.8%" y="89%" numero="+")
               ul.lista-ul
                 li.mb-0 
                   <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
@@ -1116,7 +1115,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.text-small.text-bold Descargar. El diagrama de Ishikawa.
+                p.text-small.text-bold Descargar. El diagrama de <i>Ishikawa</i>.
               .col-sm-auto
                 a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
                   span Descargar

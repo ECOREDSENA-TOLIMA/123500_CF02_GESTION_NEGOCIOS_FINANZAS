@@ -2,14 +2,22 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 10%
-    right: 13%
-    width: 80%
+    top: 30%
+    right: 28%
+    width: 240px
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 20%
+    top: 20%
+    right: 13%
+
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
 
 
 @keyframes float1
@@ -77,6 +85,9 @@
 .BG02, .tarjeta.tarjeta--azul.acordion__activo, .anexo
   background-color: #E1EFE3
 
+.tarjeta.tarjeta--azul
+  background-color: #DADDDF
+
 .BG03
   background-color: #FEF5E5
   border-radius: 26px
@@ -120,6 +131,9 @@
 .tarjeta.color-primario *, .img-infografica-b__modal__contenido div > *
   color: black !important
 
+.tarjeta.color-primario2
+  color: black
+  
 .tarjeta.color-acento-contenido, .img-infografica-b__modal, .tarjeta-avatar-b .tarjeta
   background-color: #E1FBFF
 
@@ -128,7 +142,7 @@
   align-items: center
 
 .tarjeta.color-acento-botones, .cajon.color-secundario, .tabs-c__tab
-  background-color: #EAEFF3
+  background-color: #DBE5F3
 
 .acordion__accion__btn--a, .fa-times:before, .slyder-a__btn--sigt, .slyder-a__btn--atrs, .slyder-a__bullets__item--active, .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: #FCC15A !important
@@ -222,5 +236,20 @@ table
 .BGIMG06_1
   background: #0C5E46
 
-/* .tarjeta.color-primario
-  background: #0C5E46  */ 
+.tarjeta.color-primario1
+  background: #0C5E46  
+
+
+
+.titulo-herramientas 
+  background-image: url("../assets/curso/temas/ico-title.svg")
+  background-size: inherit
+  background-repeat: no-repeat 
+  padding-left: 2em
+  color: $color-primario
+  border-bottom: 0.15em solid $color-secundario
+
+.tarjeta.tarjeta--azul1
+  background: linear-gradient(0deg,#E3ECF7, #E1EFE3)
+  background-repeat: no-repeat
+  background-size: cover
