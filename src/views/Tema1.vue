@@ -548,8 +548,8 @@
       .h4.mb-4(data-aos="zoom-down-right")
         span.titulo-herramientas(style="color: #0C5E46") Modelos de planeación estratégica
 
-    p Un modelo de planeación estratégica es un término colectivo para varios elementos que contribuyen al proceso de planificación estratégica. Se puede pensar en los modelos de planificación estratégica como plantillas en las que puede colocar sus propias ideas. Al final, obtendrá un plan estratégico que está estructurado de manera sensata y le brinda un conjunto claro de acciones sobre las cuales trabajar.
-    p.mb-5 Los modelos de planeación estratégica proporcionan una estructura general que aplica a su proceso de planificación estratégica; es decir, los modelos de planificación estratégica proporcionan una forma de estructurar la información de su estrategia y el contenido de su plan estratégico, los diversos componentes y cómo interactúan entre sí de manera coherente: lo que hacen, cómo encajan y en qué orden.
+    p Un modelo de planeación estratégica es un término colectivo para varios elementos que contribuyen al proceso de planificación estratégica. Se puede pensar en los modelos de planificación estratégica como plantillas en las que se pueden poner las propias ideas. Al final, se obtendrá un plan estratégico que está estructurado de manera sensata y brinda un conjunto claro de acciones sobre las cuales trabajar.
+    p.mb-5 Los modelos de planeación estratégica proporcionan una estructura general que aplica a cualquier proceso de planificación estratégica; es decir, los modelos de planificación estratégica proporcionan una forma de estructurar la información de la estrategia y el contenido del plan estratégico, los diversos componentes y cómo interactúan entre sí de manera coherente: lo que hacen, cómo encajan y en qué orden.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-md-11.col-12.BGIMG05.py-4  
@@ -881,14 +881,14 @@
         PasosA.color-acento-contenido.mb-5(tipo="l")
           div
             h4 Visualizar el plan operativo
-            p Las características principales de un plan operativo incluyen tareas para lograr objetivos particulares y claramente definidos, además de la gestión de su personal para garantizar que funcionen a niveles óptimos. Identifique su visión en lo que respecta a esos niveles y luego podrá comenzar con la fase de investigación.
+            p Las características principales de un plan operativo incluyen tareas para lograr objetivos particulares y claramente definidos, además de la gestión del personal para garantizar que funcionen a niveles óptimos. Se debe Identificar la visión en lo que respecta a esos niveles y luego comenzar con la fase de investigación.
           div
             h4 Investigar e identificar metas
-            p Para comenzar a desarrollar su plan operativo, comience por examinar sus objetivos, es decir, con qué presupuesto cuenta y rendición de cuentas con respecto a vigencias anteriores. Aborde esto desde una perspectiva presupuestaria, una perspectiva de recursos y desde la perspectiva de un miembro del equipo. Hay que pensar en esta época el próximo año, dentro de dos años, dentro de tres años, etc.
+            p Para comenzar a desarrollar el plan operativo, hay que examinar los objetivos, es decir, con qué presupuesto se cuenta y rendición de cuentas con respecto a vigencias anteriores. Se debe abordar esto desde una perspectiva presupuestaria, una perspectiva de recursos y desde la perspectiva de un miembro del equipo. Hay que pensar en esta época el próximo año, dentro de dos años, dentro de tres años, etc.
             p Esto puede incluir plazos de lanzamiento de productos, cantidad de productos fabricados, cantidad de casos de servicio al cliente cerrados, cantidad de reseñas de 5 estrellas recibidas, cantidad de clientes adquiridos, ingresos aumentados en un cierto porcentaje, etc.
           div
             h4 Asignar presupuestos y personas
-            p Una vez que haya trazado sus objetivos, es importante tener en cuenta que el presupuesto de su plan operativo proviene del presupuesto anual de su departamento. Entonces, dicho esto, el presupuesto es lo más importante a considerar al comenzar a asignar tareas, recursos y presupuesto para los miembros del equipo.
+            p Una vez se ha trazado los objetivos, es importante tener en cuenta que el presupuesto del plan operativo proviene del presupuesto anual del departamento. Entonces, dicho esto, el presupuesto es lo más importante a considerar al comenzar a asignar tareas, recursos y presupuesto para los miembros del equipo.
           div
             h4 Informe sobre el plan operativo
             p Una vez que se haya trazado el plan operativo, que debe incluir objetivos claros con entregables, metas, cronogramas y el personal necesario para lograr el plan, hay que desarrollar un proceso para informar sobre la ejecución del plan.
@@ -902,7 +902,7 @@
           h5 Tabla 2.
           span <i>Tipos de planeación</i> 
 
-        table.mb-5(data-aos="fade-right")
+        tablea.clstabla.mb-5(data-aos="fade-right")
           thead
             tr
               th(style="background-color: #3AE3FE; color: #000").text-center.py-2 PLANEACIÓN
