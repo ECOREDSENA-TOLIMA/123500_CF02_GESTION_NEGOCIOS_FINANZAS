@@ -330,7 +330,7 @@
     p.mb-5.mt-5 Ahora bien, para construir una planeación estratégica, se requiere tener en cuenta ciertos pasos fundamentales. En el interactivo, se puede visualizar y explorar en qué consiste cada uno de ellos.
 
     .col.desktop
-      ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+      ImagenInfograficaB.imagen04.text-black-cl.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/img30.svg')
@@ -642,7 +642,7 @@
     p.mb-5 Este tipo de modelo, al igual que los anteriores, tiene una clasificación específica, la cual está enfocada, como bien lo indica, en procesos gerenciales de una organización. Dependiendo del logro a alcanzar, se implementa alguno de estos modelos.
 
     .col.desktop
-      ImagenInfograficaB.imagen04.color-acento-botones.mb-5
+      ImagenInfograficaB.imagen04.color-acento-botones.text-black-cl.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/img60.svg')
@@ -1045,7 +1045,7 @@
     .col
       .row.justify-content-center
         .col-md-10.col-12.mb-5
-          ImagenInfografica.imagen04.color-acento-botones.mb-5
+          ImagenInfografica.imagen04.color-acento-botones
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/img88.svg')
@@ -1107,19 +1107,13 @@
                   <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                   | Es flexible y adaptable. Se puede usar también en problemas con materias primas, tiempo, transporte, calidad de los suministros, entre otros.
 
-    .row.justify-content-center 
-      .tarjeta.p-3.mb-5.movil
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
+    .row.p-3.mb-5.movil
+      .col-lg-6
+        a.anexo.mb-4(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
+          .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small.text-bold Descargar. El diagrama de <i>Ishikawa</i>.
-              .col-sm-auto
-                a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
+          .anexo__texto
+            p Descargar. El diagrama de <i>Ishikawa</i>
       //-.col-md-10.col-12.mb-5.BG09.p-4
         LineaTiempoC.color-secundario(text-small)
           .row.justify-content-center(titulo="Paso 1")
