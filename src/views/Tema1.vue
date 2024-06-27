@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Administración
-    p.mb-5 Las organizaciones, en general, necesitan una administración eficaz para alcanzar sus objetivos empresariales. Existen diferentes niveles de administración, que tienen como fin organizar y coordinar las funciones comerciales de una empresa. La administración debe considerar los intereses de todas las partes interesadas de la empresa, incluidos los empleados, los clientes y el gobierno. 
+    p.mb-5 Las organizaciones, en general, necesitan una administración eficaz para alcanzar sus objetivos empresariales. Existen diferentes niveles de administración, que tienen como fin, organizar y coordinar las funciones comerciales de una empresa. La administración debe considerar los intereses de todas las partes interesadas de la empresa, incluidos los empleados, los clientes y el gobierno. 
 
     .row.justify-content-center.mb-5
       .col-md-10.col-12
@@ -294,9 +294,9 @@
           span <i>Aspectos del plan estratégico</i> 
 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img26_1.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y registros, los cuales merecen especial atención dentro de una empresa.')
+          img(src='@/assets/curso/tema1/img26_1.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y revisión, los cuales merecen especial atención dentro de una empresa.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img26_2.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y registros, los cuales merecen especial atención dentro de una empresa.')
+          img(src='@/assets/curso/tema1/img26_2.svg' alt='Imagen que indica el significado de los aspectos de misión, objetivos y evaluación y revisión, los cuales merecen especial atención dentro de una empresa.')
         //- <hr style="color: #2B7E3B; background-color: #2B7E3B; height: 2px; border-color: #2B7E3B; opacity: 1;" />
         //- .row.justify-content-center.align-items-center
         //-   .col-md-2.col-4.mb-md-0.mb-4
@@ -1106,7 +1106,11 @@
                 li.mb-0 
                   <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                   | Es flexible y adaptable. Se puede usar también en problemas con materias primas, tiempo, transporte, calidad de los suministros, entre otros.
-
+    
+    .row.mb-5
+      .col-md-8.col-12.BG07.p-3
+        p Por último, una vez que se haya completado el diagrama, examine la información tal como se ha organizado para llegar a una solución y crear elementos de acción.
+      
     .row.p-3.mb-5.movil
       .col-lg-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/DiagramadeIshikawa.pdf')" target="_blank")
@@ -1178,9 +1182,6 @@
                   <i class="fas fa-circle fa-xs" style="color:#359547!important;"></i>
                   | Es flexible y adaptable. Se puede usar también en problemas con materias primas, tiempo, transporte, calidad de los suministros, entre otros.
 
-      .col-md-8.col-12.mb-5.BG07.p-3
-        p Por último, una vez que se haya completado el diagrama, examine la información tal como se ha organizado para llegar a una solución y crear elementos de acción.
-      
 </template>
 
 <script>
