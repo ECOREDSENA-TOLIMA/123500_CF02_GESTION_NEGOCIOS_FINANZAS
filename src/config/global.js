@@ -250,7 +250,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Rafael Neftalí Lizcano Reyess',
           cargo: 'Asesoría Metodológica y Pedagógica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -288,7 +288,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reye',
+          nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Responsable del Equipo',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
