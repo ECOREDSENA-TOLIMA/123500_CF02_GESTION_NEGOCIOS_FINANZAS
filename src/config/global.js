@@ -250,7 +250,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Rafael Neftalí Lizcano Reyess',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesoría Metodológica y Pedagógica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
