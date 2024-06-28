@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="1220.361" viewBox="0 0 1328 1220.361">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_291117" data-name="Rectangle 291117" width="1328" height="1220.361" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.386" cy="0.252" r="1.28" gradientTransform="matrix(0.667, 0, 0, -1, 0, 2)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f5f9"/>
+      <stop offset="1" stop-color="#ecf7fa"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_871197" data-name="Group 871197" transform="translate(-136 -9654.729)">
+    <g id="Group_870471" data-name="Group 870471" transform="translate(136 9654.729)">
+      <g id="Group_870469" data-name="Group 870469" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_291116" data-name="Rectangle 291116" width="1328" height="1220.361" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+    <rect id="Rectangle_291118" data-name="Rectangle 291118" width="1328" height="201.382" transform="translate(136 9654.729)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_291119" data-name="Rectangle 291119" width="1328" height="201.382" transform="translate(136 10673.707)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
